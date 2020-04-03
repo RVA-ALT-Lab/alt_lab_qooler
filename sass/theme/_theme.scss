@@ -44,6 +44,7 @@ li.active {
 #wrapper-navbar {
   margin-left: -15px;
   margin-right: -15px;
+  background-color: $light-gray;
 }
 
 #the-menu {
@@ -93,7 +94,7 @@ li.active {
   background-color: #fff;
   border: 2px solid $primary;
   border-radius: 100px;
-  padding: 10px 40px;
+  padding: 10px 4 0px;
   margin-right: 20px;
 }
 
