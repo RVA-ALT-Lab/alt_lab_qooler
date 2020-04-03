@@ -75,13 +75,14 @@ require get_template_directory() . '/inc/editor.php';
 add_action('wp_enqueue_scripts', 'alt_lab_scripts');
 function alt_lab_scripts() {
 	$query_args = array(
-		'family' => 'Roboto:300,400,700|Old+Standard+TT:400,700|Oswald:400,500,700',
+		'family' => 'DM+Sans:400,500,700',
 		'subset' => 'latin,latin-ext',
 	);
 	wp_enqueue_style ( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
 
 	wp_enqueue_script( 'alt_lab_js', get_template_directory_uri() . '/js/alt-lab.js', array(), '1.1.1', true );
     }
+//@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 //add footer widget areas
 if ( function_exists('register_sidebar') )
