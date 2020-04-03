@@ -85,6 +85,17 @@ li.active {
   display: flex; 
 }
 
+.btn-qooler {
+  margin-left: auto;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  color: $primary;
+  background-color: #fff;
+  border: 2px solid $primary;
+  border-radius: 100px;
+  padding: 10px 40px;
+  margin-right: 20px;
+}
 
 //************************BASIC CONTENT CHOICES************************
 article a {
