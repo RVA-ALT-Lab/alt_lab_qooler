@@ -29,7 +29,6 @@
   color: $dark-gray;
 }
 
-
 li.active {
 	text-decoration: underline;
 	color: $dark-gray;
@@ -40,6 +39,50 @@ li.active {
   top: 0;
   width: 100%;
   z-index: 100;
+}
+
+#wrapper-navbar {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#the-menu {
+  background-color: #fff;
+  flex-flow: row wrap;
+}
+
+#main-menu {
+  border-bottom: 2px solid lighten($primary, 50%);
+  padding-left: 30px;
+}
+
+#main-menu a {
+  color: $primary;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: auto 10px;
+  padding-bottom: 30px;
+}
+
+.translation-block {
+  flex-basis: 100%; 
+  border-bottom: 2px solid lighten($primary, 50%);
+}
+
+.translation-block a {
+  width: 50px;
+  float: right;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.translation-block a:first-of-type {
+  border-left: 2px solid $primary;
+}
+
+.qooler-nav{
+  flex-basis: 100%;  
+  display: flex; 
 }
 
 
