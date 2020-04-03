@@ -12,14 +12,32 @@
 @import "theme/contact-form7"; // Contact Form 7 - Bootstrap 4 support
 
 //NAV
+#the-menu {
+	background-color: #fff;
+	flex-flow: row wrap;
+}
 
 #main-menu {
 	border-bottom: 2px solid lighten($primary, 50%);
 }
+
 #main-menu a {
 	color: $primary;
 	font-size: 1.1em;
 	font-weight: 600;
 	margin: auto 10px;
 	padding-bottom: 30px;
+}
+
+.translation-block {
+	flex-basis: 100%;	
+}
+
+.translation-block a {
+	width: 50px;
+
+}
+
+.qooler-nav{
+	flex-basis: 100%;		
 }
