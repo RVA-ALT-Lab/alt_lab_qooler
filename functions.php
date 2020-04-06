@@ -70,6 +70,11 @@ require get_template_directory() . '/inc/woocommerce.php';
  */
 require get_template_directory() . '/inc/editor.php';
 
+/**
+ * Load ACF functions.
+ */
+require get_template_directory() . '/inc/acf.php';
+
 
 //ADD FONTS and VCU Brand Bar
 add_action('wp_enqueue_scripts', 'alt_lab_scripts');
