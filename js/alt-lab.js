@@ -17,3 +17,22 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+if (document.getElementById('weather-block')){
+	let weather_data = 'https://rampages.us/extras/doha-weather.php'
+   
+    jQuery(document).ready(function() {
+      var def = new jQuery.Deferred();
+      jQuery.ajax({
+        url: weather_data,
+        jsonp: "cb",
+        dataType: 'json',
+        success: function(data) {
+            console.log(data); //dumps the data to the console to check if the callback is made successfully.
+              console.log(data.list[0].weather)
+              jQuery('#how-hot').html(data.list[0].main.temp_max + '°<div class="description">'+data.list[0].weather[0].description+'</div>');
+          } //success
+      }); //ajax  
+    }); //ready
+ 
+}

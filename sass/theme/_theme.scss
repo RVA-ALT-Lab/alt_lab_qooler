@@ -100,6 +100,24 @@ li.active {
   margin-right: 20px;
 }
 
+//***************WEATHER BLOCK********************//
+#how-hot {
+  font-family: sans-serif;
+  font-size: 14em;
+  font-weight: 800;
+  color: #1772c2;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  display: block;
+  z-index: 3;
+  opacity: .4;
+}
+
+#how-hot .description {
+  font-size: .5em;
+}
+
 //************************BASIC CONTENT CHOICES************************
 article a {
 	text-decoration: underline;
