@@ -23,17 +23,17 @@ defined( 'ABSPATH' ) || exit;
   }
 
   //ACF JSON LOADER
-  add_filter('acf/settings/load_json', 'qooler_acf_json_load_point');
+  // add_filter('acf/settings/load_json', 'qooler_acf_json_load_point');
 
-  function qooler_acf_json_load_point( $paths ) {
+  // function qooler_acf_json_load_point( $paths ) {
       
-      // remove original path (optional)
-      unset($paths[0]);    
+  //     // remove original path (optional)
+  //     unset($paths[0]);    
       
-      // append path
-      $path = get_stylesheet_directory() . '/acf-json';
+  //     // append path
+  //     $path = get_stylesheet_directory() . '/acf-json';
       
-      // return
-      return $paths;
+  //     // return
+  //     return $paths;
       
-  }
+  // }
