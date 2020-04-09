@@ -1,6 +1,6 @@
 <?php
 /**
- * Partial template for content in page.php
+ * Partial template for content in home page.php
  *
  * @package understrap
  */
