@@ -103,10 +103,10 @@ li.active {
 //***************WEATHER BLOCK********************//
 #how-hot {
   font-family: sans-serif;
-  font-size: 14em;
+  font-size: 10em;
   font-weight: 800;
   color: #1772c2;
-  right: 10%;
+  right: 7%;
   display: block;
   z-index: 3;
   opacity: .4;
@@ -120,17 +120,16 @@ li.active {
 .heavy {
   font-weight: 700;
   font-size: 3em;
-  line-height: 1.3em;
+  line-height: 1.1em;
 }
 
 .weather-row {
-  background-image:linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../imgs/desert-pano.jpg');
+  background-image:linear-gradient(to right, rgba(245, 246, 252, 0.4), rgba(117, 19, 93, 0.6)), url('../imgs/desert-pano.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
-  padding: 20px 60px;
-
+  height: auto;
+  padding: 120px 40px;
 }
 
 //************************BASIC CONTENT CHOICES************************
