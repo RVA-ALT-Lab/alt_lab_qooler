@@ -36,7 +36,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="translation-block"><a href="#">EN</a><a href="#">AR</a></div>
 				<div class="qooler-nav">
 					<!-- Your site title as branding in the menu -->					
-					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="<?php echo get_template_directory_uri() . '/imgs/qooler_logo.jpeg' ?>"></a>							
+					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="<?php echo get_template_directory_uri() . '/imgs/qooler_logo.jpeg' ?>" class="align-right fluid"></a>							
 
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
