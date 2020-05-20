@@ -181,77 +181,19 @@ p {
   z-index: -1;
 }
 .arrow {
-  background-color: #424242;
   width:50px;
   height:50px;
   display:inline-block;
-  background-image: url("http://rampages.us/playgroundforme/wp-content/uploads/sites/26581/2018/03/Arrow16up_SWh.svg");
+  background-image: url(../imgs/arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 1.5em;
+  background-color: red;
 }
 
 
 //BACKGROUND
 
-
-//SUB ORGS
-.jumbotron.water {
-  background: url(../imgs/topographic-background-2-white.svg), linear-gradient(rgba(0, 179, 190, 0), rgba(158, 158, 158, 1));
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-color: rgba(0,0,0,0);
-}
-
-.water .card-img-top {
-	border-radius: 50%;
-	border: 2px solid $white;
-	width: 80%;
-	height: auto;
-	margin: 0 auto;
-}
-
-.water .card-title {
-	background-color: $white;
-	padding: .2em;
-	display: inline-block;
-	text-align: center;
-	font-size: 1.5em;
-	height: 3em;
-	width: 100%;
-	margin: 0 auto;
-}
-
-.water .card {
-	height: 100%;
-	background-color: rgba(0,0,0,0);
-	border: none;
-}
-
-//FOOTER 
-#wrapper-footer {
-	padding-top: 5em;
-	background-color: $dark-gray;	
-}
-
-.footer-widget{
-	background-color: $dark-gray;
-	padding-top: 3em;
-	color: $white;
-	line-height: 1em;
-}
-
-.widgetizedArea p {
-	background-color: $dark-gray;
-	color: $white;
-	padding: .2em 0;
-	margin: 0;
-}
-
-.widgetizedArea h3 {
-	color: $gold;
-	font-size: 1.2em;
-}
 
 //JUST BLOCKQUOTE
 //from https://codepen.io/iPawan/pen/emrPKP
