@@ -51,6 +51,8 @@ li.active {
 
 #the-menu {
   flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
 }
 
 #main-menu {
@@ -69,6 +71,8 @@ li.active {
 .translation-block {
   flex-basis: 100%; 
   border-bottom: 2px solid lighten($primary, 50%);
+  background-color: #fff;
+  padding-right: 20px;
 }
 
 .translation-block a {
@@ -99,6 +103,11 @@ li.active {
   margin-right: 20px;
 }
 
+
+.q-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+}
 //***************WEATHER BLOCK********************//
 #how-hot {
   font-family: sans-serif;
