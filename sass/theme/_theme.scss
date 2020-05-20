@@ -46,11 +46,10 @@ li.active {
 #wrapper-navbar {
   margin-left: -15px;
   margin-right: -15px;
-  background-color: $light-gray;
+  background-color: transparent;
 }
 
 #the-menu {
-  background-color: #fff;
   flex-flow: row wrap;
 }
 
