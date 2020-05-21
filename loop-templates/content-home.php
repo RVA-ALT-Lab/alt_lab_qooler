@@ -87,6 +87,18 @@
 </div>
 <!--qatar stats END--> 
 
+<!--doha start--> 
+<div class="container-fluid me-zone">
+	<div class="row orange-bg flip">
+		<div class="col-md-6">
+			<div class="callout">“Qatar, most notably, is in danger because Doha is uniquely geographically positioned to receive hot dry air from the desert interior to the west and hot moist air from the Gulf.” [2]</div>
+		</div>
+		<div class="col-md-6 dunes">			
+		</div>
+	</div>
+</div>
+<!--doha END--> 
+
 		<!--ACF BLOCK LOOP-->
 		<?php
 

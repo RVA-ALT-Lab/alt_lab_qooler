@@ -279,7 +279,30 @@ li.active {
   font-size: 1.8em;
 }
 
+//*doha zone*//
 
+.orange-bg.flip {
+  -webkit-transform:scaleX(-1);
+  -moz-transform:scaleX(-1);
+  -ms-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+}
+
+.orange-bg.flip .callout {
+ -webkit-transform:scaleX(-1);
+  -moz-transform:scaleX(-1);
+  -ms-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+}
+
+.dunes {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/dunes.svg)
+}
 //************************BASIC CONTENT CHOICES************************
 .qooler {
   color: #046B99;
