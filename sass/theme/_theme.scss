@@ -58,6 +58,7 @@ li.active {
 #main-menu {
   border-bottom: 2px solid lighten($primary, 50%);
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 #main-menu a {
@@ -113,11 +114,11 @@ li.active {
   font-family: sans-serif;
   font-size: 10em;
   font-weight: 800;
-  color: #1772c2;
+  color: #2d789d;
   right: 7%;
   display: block;
   z-index: 3;
-  opacity: .4;
+  opacity: .8;
   text-align: right;
 }
 
@@ -146,8 +147,29 @@ li.active {
   border-style: solid;
   border-width: 30px 20px 0 20px;
   border-color: rgb(161,5,13) transparent transparent transparent;
-  display: inline-block;;
+  display: inline-block;
 }
+
+
+//*behind the idea orange rows*//
+.orange-bars .bar, .orange-bars .bar-highlight {
+  background: rgb(243,119,23);
+  background: linear-gradient(351deg, rgba(243,119,23,1) 0%, rgba(197,44,128,1) 100%);
+}
+
+.orange-bars .bar-highlight { 
+  color: #fff;
+  padding: 20px;
+}
+
+.orange-bars .bar-one, .orange-bars .bar-two {
+  height: 80px;
+}
+
+.orange-bars .bar-one {
+  width: 200px;
+}
+
 
 //************************BASIC CONTENT CHOICES************************
 article a {
@@ -196,7 +218,7 @@ p {
   background-image: url(../imgs/triangle_large.svg);
   background-position: center;
   background-repeat: no-repeat;
-  margin: 1em;
+  margin: .7em;
   background-size: contain;
 }
 

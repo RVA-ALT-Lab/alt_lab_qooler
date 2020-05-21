@@ -16,8 +16,8 @@
 	<div class="weather-row row">
 				<div class="col-md-4 heavy">
 					2020<br>
-					Qooler<br>
-					design<br>
+					Qooler:<br>
+					A design<br>
 					competition<br>
 					for a cooler<br>
 					future | <span class="triangle-down"></span><br>
@@ -27,6 +27,16 @@
 					<div id="how-hot"></div>
 				</div>
 		</div>
+	<div class="container">
+		<div class="row">
+			<div class="orange-bars">
+				<div class="bar-one bar"></div>
+				<div class="bar-two bar"></div>
+				<h2 class="bar-highlight">Behind the Idea: Qatar is</h2><h2 class="bar-highlight">getting hotter</h2>
+			</div>
+		</div>
+	</div>
+
 		<!--ACF BLOCK LOOP-->
 		<?php
 
