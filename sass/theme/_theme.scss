@@ -152,22 +152,44 @@ li.active {
 
 
 //*behind the idea orange rows*//
+
+.orange-bars {
+  margin-top: 50px;
+  position: relative;
+}
+
+
 .orange-bars .bar, .orange-bars .bar-highlight {
   background: rgb(243,119,23);
   background: linear-gradient(351deg, rgba(243,119,23,1) 0%, rgba(197,44,128,1) 100%);
+  display: inline-block;
 }
 
 .orange-bars .bar-highlight { 
   color: #fff;
   padding: 20px;
+  position: absolute;
+  width: 100%;
 }
 
-.orange-bars .bar-one, .orange-bars .bar-two {
+.orange-bars .top {
+   top: 80px;
+}
+
+
+.orange-bars .bar-big, .orange-bars .bar-small {
   height: 80px;
 }
 
-.orange-bars .bar-one {
-  width: 200px;
+.orange-bars .bar-big {
+  width: 100%;
+  position: absolute;
+}
+
+.orange-bars .bar-small {
+  width: 100%;
+  position: absolute;
+  top: 80px;
 }
 
 

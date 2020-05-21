@@ -27,12 +27,21 @@
 					<div id="how-hot"></div>
 				</div>
 		</div>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="orange-bars">
-				<div class="bar-one bar"></div>
-				<div class="bar-two bar"></div>
-				<h2 class="bar-highlight">Behind the Idea: Qatar is</h2><h2 class="bar-highlight">getting hotter</h2>
+			<div class="orange-bars col-md-8 offset-md-4">
+				<div class="row">
+					<div class="col-md-6">
+						<h2 class="bar-highlight top">Behind the Idea: Qatar is
+						<br>getting hotter</h2>
+					</div>
+					<div class="col-md-4">
+						<div class="bar-big bar"></div>
+					</div>
+					<div class="col-md-2">
+						<div class="bar-small bar"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
