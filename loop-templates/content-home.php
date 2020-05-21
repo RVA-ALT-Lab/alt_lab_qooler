@@ -98,6 +98,18 @@
 	</div>
 </div>
 <!--doha END--> 
+<!--you charge start--> 
+<div class="container-fluid charge">
+	<div class="row gray-bg glasses left">
+		<div class="col-md-8 offset-md-2">
+			<h2>This is where YOU and your design can make a difference</h2>
+			<div class="qatar-text">The objective of <span class="qooler">Qooler</span> is to recognize, showcase and promote the best design ideas that embody the principles and aims of Qatar’s National Vision 2030[3] which has sustainability as a core feature of its four pillars.</div>
+		</div>
+		<div class="col-md-6 thermal-globe">			
+		</div>
+	</div>
+</div>
+<!--your charge END--> 
 
 		<!--ACF BLOCK LOOP-->
 		<?php
