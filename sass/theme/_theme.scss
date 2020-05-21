@@ -153,6 +153,10 @@ li.active {
 
 //*behind the idea orange rows*//
 
+.the-bars {
+    background-color: #f8f8f8;
+}
+
 .orange-bars {
   margin-top: 50px;
   position: relative;
@@ -204,9 +208,9 @@ li.active {
 
 //*map zone*//
 .map-zone {
-  margin-top: 60px;
-  padding-top: 60px;
+  padding-top: 120px;
   background-color: #f8f8f8;
+  padding-bottom: 60px;
 }
 
 .map-zone p {
@@ -224,7 +228,32 @@ li.active {
   margin: 0 auto;
 }
 
+.orange-bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/orange_bg.svg)
+}
+
+.callout {
+  font-size: 2em;
+  color: #fff;
+  margin: 70px 50px 70px 60px;
+  padding: 20px;
+}
+
+.thermal-globe {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/thermal_globe.svg)
+}
+
 //************************BASIC CONTENT CHOICES************************
+.qooler {
+  color: #046B99;
+}
+
 article a {
 	text-decoration: underline;
 }

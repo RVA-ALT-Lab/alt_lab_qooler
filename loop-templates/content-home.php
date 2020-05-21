@@ -27,7 +27,7 @@
 					<div id="how-hot"></div>
 				</div>
 		</div>
-	<div class="container-fluid">
+	<div class="container-fluid the-bars">
 		<!--ORANGE BAR START-->
 		<div class="row">
 			<div class="orange-bars col-md-9 offset-md-3">
@@ -47,9 +47,8 @@
 		</div>
     <!--orange bar end-->
 	</div>
-
-<div class="container-fluid map-zone">
 <!--map zone start--> 
+<div class="container-fluid map-zone">
     <div class="container">
 		<div class="row">
 			<div class="col-md-4 weird-map">
@@ -62,7 +61,17 @@
 			</div>
 		</div>
 	</div>
-	<!--map zone end--> 
+</div>
+<!--map zone end--> 
+<!--conditions in the mid east start--> 
+<div class="container-fluid me-zone">
+	<div class="row orange-bg">
+		<div class="col-md-6">
+			<div class="callout">“Conditions in the Middle East could become so hot and humid by the end of the century that being outside for more than six hours would be intolerable.” [1]</div>
+		</div>
+		<div class="col-md-6 thermal-globe">			
+		</div>
+	</div>
 </div>
 
 		<!--ACF BLOCK LOOP-->
