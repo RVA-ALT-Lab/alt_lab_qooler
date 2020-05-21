@@ -39,7 +39,7 @@ if (document.getElementById('weather-block')){
 
 if (document.getElementById('quiver')){
 
-  for(var i = 0; i < 100; i++){
+  for(var i = 0; i < 150; i++){
     makeArrow();
   }
 

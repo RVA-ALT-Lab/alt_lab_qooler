@@ -105,7 +105,7 @@ li.active {
 
 
 .q-logo {
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 //***************WEATHER BLOCK********************//
@@ -190,13 +190,13 @@ p {
   z-index: -1;
 }
 .arrow {
-  width:50px;
-  height:50px;
+  width:25px;
+  height:25px;
   display:inline-block;
   background-image: url(../imgs/triangle_large.svg);
   background-position: center;
   background-repeat: no-repeat;
-  margin: 1.5em;
+  margin: 1em;
   background-size: contain;
 }
 
