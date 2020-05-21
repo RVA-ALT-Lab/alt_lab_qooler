@@ -249,6 +249,37 @@ li.active {
   background-image: url(../imgs/thermal_globe.svg)
 }
 
+//*qatar zone*//
+
+.gray-bg {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+.glasses {
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/white_glasses.svg)
+}
+
+.glasses.left {
+    background-position: left top;
+}
+
+.glasses.center {
+    background-position: center top;
+}
+
+.glasses.right {
+    background-position: right top;
+}
+
+.qatar-text {
+  margin-top: 30px;
+  font-size: 1.8em;
+}
+
+
 //************************BASIC CONTENT CHOICES************************
 .qooler {
   color: #046B99;

@@ -73,6 +73,19 @@
 		</div>
 	</div>
 </div>
+<!--conditions in the mid east END--> 
+
+<!--qatar stats start--> 
+<div class="container-fluid qatar-zone">
+	<div class="row gray-bg glasses center">
+		<div class="col-md-8 offset-md-2">
+			<div class="qatar-text">Qatar is home to nearly 3 million people. All residents need a way to live in an increasingly hotter country. We look to human ingenuity for solutions to make life in the desert peninsula more comfortable.</div>
+		</div>
+		<div class="col-md-6 thermal-globe">			
+		</div>
+	</div>
+</div>
+<!--qatar stats END--> 
 
 		<!--ACF BLOCK LOOP-->
 		<?php
