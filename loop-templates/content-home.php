@@ -46,19 +46,24 @@
 			</div>
 		</div>
     <!--orange bar end-->
-	<!--map zone start--> 
-	<div class="row map-zone">
-		<div class="col-md-6 weird-map">
-			<img class="fluid" src="" alt="A triangular map view of the Earth.">
-		</div>
-		<div class="col-md-6 map-text">
-			<p>This competition seeks to find solutions to the problems for humans that climate change creates in a desert/marine climate like Qatar.</p>
-			<p>Being outside – whether working or playing – needs to be a part of life. But heat and humidity are uncomfortable, but in some cases, it can be dangerous.</p>
-			<p><span class="qooler">Qooler</span> is a design competition that seeks solutions that enable a comfortable and enjoyable life outdoors despite increasing heat</p>
+	</div>
+
+<div class="container-fluid map-zone">
+<!--map zone start--> 
+    <div class="container">
+		<div class="row">
+			<div class="col-md-4 weird-map">
+				<img class="fluid map-tri" src="<?php echo get_template_directory_uri();?>/imgs/map_tri.svg" alt="A triangular map view of the Earth.">
+			</div>
+			<div class="offset-md-2 col-md-6 map-text">
+				<p>This competition seeks to find solutions to the problems for humans that climate change creates in a desert/marine climate like Qatar.</p>
+				<p>Being outside – whether working or playing – needs to be a part of life. But heat and humidity are uncomfortable, but in some cases, it can be dangerous.</p>
+				<p><span class="qooler">Qooler</span> is a design competition that seeks solutions that enable a comfortable and enjoyable life outdoors despite increasing heat</p>
+			</div>
 		</div>
 	</div>
 	<!--map zone end--> 
-	</div>
+</div>
 
 		<!--ACF BLOCK LOOP-->
 		<?php
