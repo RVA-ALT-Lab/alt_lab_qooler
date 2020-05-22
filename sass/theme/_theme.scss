@@ -451,16 +451,18 @@ li.active {
     display: inline-block;
     background-color: $primary;
     color: #fff;
+    height: 400px;
 }
 
 .judge h2 {
   text-align: center;
   font-size: 1.4em;
-  margin-top: 20px;
+  margin-top: 30px;
+  font-weight: 300;
 }
 
 .magic-box {
-  width: 80%;
+  width: 70%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -473,6 +475,25 @@ li.active {
   content: "";
   display: block;
   padding-bottom: 100%;
+}
+
+.judge-title {
+  font-size: .8em;
+  text-align: center;
+}
+
+.judge-triangle {
+  position: absolute;
+  bottom: 20px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+   width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
 }
 
 

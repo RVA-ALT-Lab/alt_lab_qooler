@@ -24,12 +24,13 @@
 
 			        // get a sub field value
 			        $name = get_sub_field('judge_name');
-			        $title = get_sub_field('judge_tile');
+			        $title = get_sub_field('judge_title');
 			        $img = get_sub_field('judge_picture')["sizes"]["medium"];
 			        $html .= '<div class="flip-container col-md-3 judge" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
 					//         <a href="#vento_nadya">
 					$html .=   '<div class="front"><h2>'.$name.'</h2>';
-					$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div></div>';
+					$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
+					$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
 
 					//         </a>
 					//         <div class="back"></div>
