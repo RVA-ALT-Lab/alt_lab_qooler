@@ -244,9 +244,9 @@ li.active {
 
 .thermal-globe {
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../imgs/thermal_globe.svg)
+  background-image: url(../imgs/heat-map.gif)
 }
 
 //*qatar zone*//
@@ -306,11 +306,18 @@ li.active {
 }
 
 //**charge**//
+
+.charge {
+  padding-bottom: 100px;
+}
+
 .charge h2 {
   font-size: 2.5em;
   margin: 40px 80px;
   text-align: center;
 }
+
+//**categories**//
 
 
 //************************BASIC CONTENT CHOICES************************
