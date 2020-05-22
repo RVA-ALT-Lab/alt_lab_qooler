@@ -29,7 +29,7 @@
 			        $html .= '<div class="flip-container judge" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
 					//         <a href="#vento_nadya">
 					$html .=   '<div class="front"><h2>'.$name.'</h2>';
-					$html .= '<img src="'. $img .'"></div>';
+					$html .= '<div class="magic-box"><img class="judge-face" src="'. $img .'"></div></div>';
 
 					//         </a>
 					//         <div class="back"></div>

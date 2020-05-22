@@ -451,6 +451,15 @@ li.active {
     height: 555px;
     margin: 30px;
     display: inline-block;
+    background-color: $primary;
+    color: #fff;
+}
+
+.judge-face {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 
 //*footer*//
