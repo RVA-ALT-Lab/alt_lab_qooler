@@ -105,7 +105,11 @@ li.active {
 }
 
 #top-submit {
-  margin: 0;
+  height: 40px;
+  position: absolute;
+  right: 70px;
+  bottom: 30px;
+  background-color: #f8f8f8;
 }
 
 .q-logo {

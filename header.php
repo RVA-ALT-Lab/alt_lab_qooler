@@ -56,9 +56,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 								'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 							)
 						); ?>
+						<a class="btn btn-learn" id="top-submit" href="submit">Submit an entry</a>
 
 		</div><!-- .container -->
-		<a class="btn btn-submit" href="submit">Submit an entry</a>
+
 
 
 		</nav><!-- .site-navigation -->
