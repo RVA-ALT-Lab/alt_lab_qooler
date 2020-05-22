@@ -17,13 +17,13 @@
 		<?php
 
 			// check if the repeater field has rows of data
-			if( have_rows('block_row') ):
+			if( have_rows('judge') ):
 
 			 	// loop through the rows of data
-			    while ( have_rows('block_row') ) : the_row();
+			    while ( have_rows('judge') ) : the_row();
 
 			        // display a sub field value
-			        echo the_sub_field('block_item');
+			        echo the_sub_field('judge_name');
 
 			    endwhile;
 

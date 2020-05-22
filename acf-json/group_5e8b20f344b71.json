@@ -1,13 +1,13 @@
 {
     "key": "group_5e8b20f344b71",
-    "title": "Base Blocks",
+    "title": "Judges",
     "fields": [
         {
             "key": "field_5e8b2148a570c",
-            "label": "Block Row",
-            "name": "block_row",
+            "label": "Judge",
+            "name": "judge",
             "type": "repeater",
-            "instructions": "Each piece will be a full width row. No padding etc.",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -23,9 +23,9 @@
             "sub_fields": [
                 {
                     "key": "field_5e8b2373917a5",
-                    "label": "Block Item",
-                    "name": "block_item",
-                    "type": "wysiwyg",
+                    "label": "Judge Name",
+                    "name": "judge_name",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -35,10 +35,72 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 1,
-                    "delay": 0
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5ec7d2450d533",
+                    "label": "Judge Title",
+                    "name": "judge_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5ec7d2510d534",
+                    "label": "Judge picture",
+                    "name": "judge_picture",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5ec7d2760d535",
+                    "label": "Judge biography",
+                    "name": "judge_bio",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
                 }
             ]
         }
@@ -46,9 +108,9 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page",
                 "operator": "==",
-                "value": "page"
+                "value": "33"
             }
         ]
     ],
@@ -60,5 +122,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1586176961
+    "modified": 1590153916
 }

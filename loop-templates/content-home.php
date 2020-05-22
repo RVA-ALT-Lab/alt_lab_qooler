@@ -189,29 +189,7 @@
 	</div>
 </div>
 <!--your charge END--> 
-
-		<!--ACF BLOCK LOOP-->
-		<?php
-
-			// check if the repeater field has rows of data
-			if( have_rows('block_row') ):
-
-			 	// loop through the rows of data
-			    while ( have_rows('block_row') ) : the_row();
-
-			        // display a sub field value
-			        echo the_sub_field('block_item');
-
-			    endwhile;
-
-			else :
-
-			    // no rows found
-
-			endif;
-
-			?>
-		<!--no mas block loop-->
+		
 
 	<div class="entry-content">
 	
