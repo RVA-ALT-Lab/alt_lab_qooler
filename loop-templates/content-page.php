@@ -26,7 +26,7 @@
 			        $name = get_sub_field('judge_name');
 			        $title = get_sub_field('judge_tile');
 			        $img = get_sub_field('judge_picture')["sizes"]["medium"];
-			        $html .= '<div class="flip-container" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
+			        $html .= '<div class="flip-container judge" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
 					//         <a href="#vento_nadya">
 					$html .=   '<div class="front"><h2>'.$name.'</h2>';
 					$html .= '<img src="'. $img .'"></div>';
@@ -34,7 +34,7 @@
 					//         </a>
 					//         <div class="back"></div>
 					//     </div>
-					$html .= '</div>';
+					$html .= '</div></div>';
 
 			    endwhile;
 
