@@ -15,9 +15,9 @@ $container = get_theme_mod( 'understrap_container_type' );
  
 
 <div class="wrapper" id="wrapper-footer">
-
+	<img src="<?php echo get_template_directory_uri() . '/imgs/art_q_logo.svg' ?>" class="fluid footer-q-logo">
 	<footer class="<?php echo esc_attr( $container ); ?>">
-
+		
 		<div class="row" id="footer">
 
 

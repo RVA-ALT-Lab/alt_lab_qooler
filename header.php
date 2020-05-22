@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
 		<nav class="navbar navbar-expand-md" id="the-menu">
-				<div class="translation-block"><a href="#">EN</a><a href="#">AR</a></div>
+				<div class="translation-block"><a id="translate-en" href="#">EN</a><a id="translate-ar" href="#">AR</a></div>
 				<div class="qooler-nav">
 					<!-- Your site title as branding in the menu -->					
 					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="<?php echo get_template_directory_uri() . '/imgs/qooler_text_logo.svg' ?>" class="align-right fluid q-logo" width="560px" height="259px"></a>							
@@ -58,7 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						); ?>
 
 		</div><!-- .container -->
-		<a class="btn btn-primary btn-qooler" href="#">Submit an entry</a>
+		<a class="btn btn-submit" href="submit">Submit an entry</a>
 
 
 		</nav><!-- .site-navigation -->

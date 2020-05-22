@@ -56,7 +56,7 @@ li.active {
 }
 
 #main-menu {
-  border-bottom: 2px solid lighten($primary, 50%);
+  border-bottom: 2px solid #046B99;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -71,7 +71,7 @@ li.active {
 
 .translation-block {
   flex-basis: 100%; 
-  border-bottom: 2px solid lighten($primary, 50%);
+  border-bottom: 2px solid #046B99;
   background-color: #fff;
   padding-right: 20px;
 }
@@ -104,6 +104,9 @@ li.active {
   margin-right: 20px;
 }
 
+#top-submit {
+  margin: 0;
+}
 
 .q-logo {
   margin-left: 50px;
@@ -404,6 +407,26 @@ li.active {
   background-color: transparent;
   padding: .3em 0;
 }
+
+//*footer*//
+#full-width-page-wrapper {
+  padding-bottom: 0;
+}
+
+#wrapper-footer {
+  border-top: 130px solid #046B99;
+  border-bottom: 2px solid #046B99;
+  background-color: #f8f8f8;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.footer-q-logo {
+  width: 300px;
+  margin-left: 100px;
+
+}
+
 
 //************************BASIC CONTENT CHOICES************************
 .qooler {
