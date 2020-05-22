@@ -123,11 +123,17 @@
 		<div class="col-md-9">
 			<div class="row">
 				<div class="col-md-4 tri-cat">
-					<h3>Products/Artifacts/Interventions</h3>
-					<img class="cat-icon product" src="">
+					<h3>Products/Artifacts/<br>Interventions</h3>
+					<div class="product-icon"></div>
 				</div>
-				<div class="col-md-4 tri-cat">Wearables</div>
-				<div class="col-md-4 tri-cat">Spaces and Environments</div>
+				<div class="col-md-4 tri-cat">
+					<h3>Wearables</h3>
+					<div class="wearable-icon"></div>
+				</div>
+				<div class="col-md-4 tri-cat">
+					<h3>Spaces and<br>Environments</h3>
+					<div class="spaces-icon"></div>
+				</div>
 				<div class="col-md-6">learn more</div>
 				<div class="col-md-6">submit</div>
 			</div>
