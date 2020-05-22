@@ -152,6 +152,44 @@
 </div>
 <!--three categories END--> 
 
+<!--you charge start--> 
+<div class="container-fluid details">
+	<div class="row gray-bg glasses center">
+		<div class="col-md-8 offset-md-2">
+			<h2>Competition timeline</h2>
+			<div class="details-text">
+				<p>Competition registration starts when the website launches.</p>
+				<p>Design submission by December 2020</p>
+				<p>Review of Design by Jury by Jan-Feb 2021</p>
+				<p>Award date TBC ( March 2021)</p>
+			</div>
+			<h2>Awards and Exhibitions</h2>
+			<div class="details-text">
+				<p>The winning submissions will be announced at an awards ceremony, via national and international media and exhibited in Qatar at Tasmeem Doha in the Spring of 2021.</p>
+ 
+				<p>Tasmeem Doha is VCUarts Qatar’s biennial international conference focusing on contemporary themes in arts and design.</p>
+			</div>
+			<h2>Award Ceremony</h2>
+			<div class="details-text">
+				<p>Prizes and certificates will be awarded to the selected designer(s) and presented during the competition’s award ceremony in conjunction with the Tasmeem 2021 Conference. </p>
+ 
+				<p>Endorsed by the Qatar Foundation Research and Development and innovation (RDI) with jury members from academia and practice.</p>
+			</div>
+			<h2>Price Categories</h2>
+			<div class="details-text">
+				<p>1st Prize $ 5,000</p>
+				<p>2nd Prize $ 3,000</p>
+				<p>3rd Prize $ 2,000</p>
+				<p>Honorable mentions Certificate</p>
+
+				<p>Please address any questions directly to the VCUarts Qatar Research Office – Fikria El Kaouakibi, Assistant Director of Research, VCUarts Qatar, +974-344020538, or email Qooler@vcu.edu.</p>
+				<a class="btn btn-learn" href="learn-more">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--your charge END--> 
+
 		<!--ACF BLOCK LOOP-->
 		<?php
 
