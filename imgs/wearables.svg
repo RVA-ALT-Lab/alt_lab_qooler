@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="260px" viewBox="0 0 349 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wearables</title>    
+    <g id="wearables" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">       
+        <rect id="Rectangle-Copy-22" fill="url(#linearGradient-1)" x="-1194" y="-291" width="2093" height="869"></rect>
+        <polygon id="Triangle-Copy-27" stroke="#046B99" stroke-width="3" transform="translate(174.500000, 129.500000) rotate(-180.000000) translate(-174.500000, -129.500000) " points="174.5 2 346 257 3 257"></polygon>
+        <g id="Group-16-Copy" transform="translate(113.000000, 40.000000)" stroke="#046B99" stroke-linejoin="round" stroke-width="3">
+            <path d="M62.5,14 C71.7981771,14 77.9648438,9.33333333 81,0 C74.8054167,1.09811422 68.63875,1.64267454 62.5,1.63368097 C56.3056672,1.62460596 50.1390005,1.08004564 44,0 C47.0351562,9.33333333 53.2018229,14 62.5,14 Z" id="Oval"></path>
+            <polyline id="Path-8" stroke-linecap="round" points="42.8671875 0 -5.62286329e-13 13.3936738 7.13178454 36.4458841 26.2008635 33.7042683 26.2008635 99 62 99"></polyline>
+            <polyline id="Path-8" stroke-linecap="round" transform="translate(93.000000, 49.500000) scale(-1, 1) translate(-93.000000, -49.500000) " points="104.867188 0 62 13.3936738 69.1317845 36.4458841 88.2008635 33.7042683 88.2008635 99 124 99"></polyline>
+        </g>
+    </g>
+</svg>

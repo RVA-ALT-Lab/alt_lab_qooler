@@ -111,6 +111,31 @@
 </div>
 <!--your charge END--> 
 
+<!--three categories start--> 
+<div class="container-fluid categories">
+	<div class="row">
+		<div class="col-md-3">
+			<h2>The 3 categories for submission</h2>
+			<div class="cat-details">
+				Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis specifically as it applies to Qatar.
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="row">
+				<div class="col-md-4 tri-cat">
+					<h3>Products/Artifacts/Interventions</h3>
+					<img class="cat-icon product" src="">
+				</div>
+				<div class="col-md-4 tri-cat">Wearables</div>
+				<div class="col-md-4 tri-cat">Spaces and Environments</div>
+				<div class="col-md-6">learn more</div>
+				<div class="col-md-6">submit</div>
+			</div>
+		</div>		
+	</div>
+</div>
+<!--three categories END--> 
+
 		<!--ACF BLOCK LOOP-->
 		<?php
 
