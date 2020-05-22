@@ -413,8 +413,29 @@ li.active {
 }
 
 //************************JUDGES************************//
+.blue-header {
+  background-color: $primary;
+  padding: 100px 100px 0 100px;
+  color: #fff;
+  margin: 15px;
+}
 
+.entry-title {
+  padding: 20px 0 50px 0;
+}
 
+.blue-glasses {
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/blue_glasses.svg)
+}
+
+.entry-title {
+  font-family: DMSans-Regular;
+  font-size: 3em;
+  letter-spacing: -2.47px;
+  font-weight: 300;
+}
 
 //*footer*//
 #full-width-page-wrapper {
