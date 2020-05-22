@@ -18,12 +18,23 @@
 
 			// check if the repeater field has rows of data
 			if( have_rows('judge') ):
-
+			    $html = '<div class="judge-holder">';
 			 	// loop through the rows of data
 			    while ( have_rows('judge') ) : the_row();
 
-			        // display a sub field value
-			        echo the_sub_field('judge_name');
+			        // get a sub field value
+			        $name = get_sub_field('judge_name');
+			        $title = get_sub_field('judge_tile');
+			        $img = get_sub_field('judge_picture')["sizes"]["medium"];
+			        $html .= '<div class="flip-container" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
+					//         <a href="#vento_nadya">
+					$html .=   '<div class="front"><h2>'.$name.'</h2>';
+					$html .= '<img src="'. $img .'"></div>';
+
+					//         </a>
+					//         <div class="back"></div>
+					//     </div>
+					$html .= '</div>';
 
 			    endwhile;
 
@@ -32,7 +43,7 @@
 			    // no rows found
 
 			endif;
-
+			echo $html . '</div>';
 			?>
 		<!--no mas block loop-->		
 
