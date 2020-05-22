@@ -122,20 +122,30 @@
 		</div>
 		<div class="col-md-9">
 			<div class="row">
-				<div class="col-md-4 tri-cat">
-					<h3>Products/Artifacts/<br>Interventions</h3>
+				<div class="col-md-4 tri-cat" id="product-button">
+					<div class="cat-title-holder">
+						<h3>Products/Artifacts/<br>Interventions</h3>
+					</div>
 					<div class="product-icon"></div>
 				</div>
-				<div class="col-md-4 tri-cat">
-					<h3>Wearables</h3>
+				<div class="col-md-4 tri-cat" id="wearble-button">
+					<div class="cat-title-holder">					
+						<h3><br>Wearables</h3><!--shameful but we're in a hurry-->
+					</div>
 					<div class="wearable-icon"></div>
 				</div>
-				<div class="col-md-4 tri-cat">
-					<h3>Spaces and<br>Environments</h3>
+				<div class="col-md-4 tri-cat" id="spaces-button">
+					<div class="cat-title-holder">					
+						<h3>Spaces and<br>Environments</h3>
+					</div>
 					<div class="spaces-icon"></div>
 				</div>
-				<div class="col-md-6">learn more</div>
-				<div class="col-md-6">submit</div>
+				<div class="col-md-4 offset-md-2">
+					<a class="btn btn-learn" href="learn-more">Learn more</a>
+				</div>
+				<div class="col-md-6">
+					<a class="btn btn-submit" href="submit">Submit an entry</a>
+				</div>
 			</div>
 		</div>		
 	</div>

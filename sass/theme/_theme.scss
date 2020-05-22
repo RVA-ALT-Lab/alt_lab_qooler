@@ -323,12 +323,18 @@ li.active {
   background-image: linear-gradient(175deg, #CEF6E4 29%, #7BE5E5 100%);
 }
 
+.cat-title-holder {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
 .categories h3 {
   text-align: center;
   font-size: 1.3em;
   margin-top: 20px;
-  height: 70px;
-  vertical-align: bottom;
+  vertical-align: bottom; 
+  flex-grow: 1;
 }
 
 .product-icon {
@@ -360,6 +366,27 @@ li.active {
   height: 150px;
   margin: 0px auto;
 }
+
+.btn {
+  width: 200px;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.btn-learn {
+  border: 2px solid #046B99;
+  border-radius: 62px; 
+  color: #046B99; 
+}
+
+.btn-submit {
+  border: 2px solid #046B99;
+  border-radius: 62px; 
+  color: #fff; 
+  background-color: #046B99;
+}
+
+
 
 
 //************************BASIC CONTENT CHOICES************************
