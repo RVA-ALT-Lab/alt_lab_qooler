@@ -18,7 +18,7 @@
 
 			// check if the repeater field has rows of data
 			if( have_rows('judge') ):
-			    $html = '<div class="judge-holder">';
+			    $html = '<div class="judge-holder row">';
 			 	// loop through the rows of data
 			    while ( have_rows('judge') ) : the_row();
 
@@ -26,10 +26,10 @@
 			        $name = get_sub_field('judge_name');
 			        $title = get_sub_field('judge_tile');
 			        $img = get_sub_field('judge_picture')["sizes"]["medium"];
-			        $html .= '<div class="flip-container judge" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
+			        $html .= '<div class="flip-container col-md-3 judge" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
 					//         <a href="#vento_nadya">
 					$html .=   '<div class="front"><h2>'.$name.'</h2>';
-					$html .= '<div class="magic-box"><img class="judge-face" src="'. $img .'"></div></div>';
+					$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div></div>';
 
 					//         </a>
 					//         <div class="back"></div>

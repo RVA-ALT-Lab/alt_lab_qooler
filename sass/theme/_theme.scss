@@ -447,20 +447,34 @@ li.active {
 }
 
 .judge {
-    width: 408px;
-    height: 555px;
     margin: 30px;
     display: inline-block;
     background-color: $primary;
     color: #fff;
 }
 
-.judge-face {
-  height: 120px;
-  width: 120px;
+.judge h2 {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+.magic-box {
+  width: 80%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 50%;
+  margin: 10px auto;
   border: 2px solid #fff;
 }
+
+.magic-box:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
 
 //*footer*//
 #full-width-page-wrapper {
@@ -476,7 +490,7 @@ li.active {
 }
 
 .footer-q-logo {
-  width: 300px;
+  width: 200px;
   margin-left: 100px;
 
 }
