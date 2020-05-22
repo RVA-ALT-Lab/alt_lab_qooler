@@ -500,6 +500,52 @@ li.active {
   border-top: 20px solid #fff;
 }
 
+.judge-front, .judge-back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #424242;
+    /* box-shadow: 0 0 10px #000; */
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
+     transition: all 1s ease;
+}
+
+.judge-back {
+  transform: rotateY(180deg);
+}
+
+
+.flip-container, .hover {
+  transition: all 1s ease; 
+}
+
+.flip-container.hover .flipper,
+.flip-container.flip .flipper {
+  transform: rotateY(360deg);
+}
+
+.flip-container.hover .judge-back {
+  backface-visibility: visible;
+  z-index: 10000;
+  transform: rotateY(360deg);
+  transition: all 1s ease;
+}
+
+.flip-container .judge-back {
+  padding: 30px;
+  background-color: #efefef;
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-container.hover .front {
+  backface-visibility: hidden;
+  display: none;
+}
+
+
 
 //*footer*//
 #full-width-page-wrapper {
