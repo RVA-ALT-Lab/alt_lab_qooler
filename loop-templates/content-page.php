@@ -27,7 +27,8 @@
 			        $title = get_sub_field('judge_title');
 			        $bio = get_sub_field('judge_bio');
 			        $img = get_sub_field('judge_picture')["sizes"]["medium"];
-			        $html .= '<div class="flip-container col-md-3 judge" id="vento_nadya" onclick="jQuery(\'#vento_nadya\').toggleClass(\'hover\')"><div class="flipper">';
+			        $row = get_row_index();
+			        $html .= '<div class="flip-container col-md-3 judge" id="judge_'.$row.'" onclick="jQuery(\'#judge_'.$row.'\').toggleClass(\'hover\')"><div class="flipper">';
 					//         <a href="#vento_nadya">
 					$html .=   '<div class="front"><h2>'.$name.'</h2>';
 					$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
