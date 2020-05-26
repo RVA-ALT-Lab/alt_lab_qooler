@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Judge Page
+ * Template Name: Categories Page
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -11,7 +11,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper q-judges" id="full-width-page-wrapper">
+<div class="wrapper q-categories" id="full-width-page-wrapper">
 
 	<div class="container-fluid" id="content">
 
@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'loop-templates/content', 'judge' ); ?>
+						<?php get_template_part( 'loop-templates/content', 'categories' ); ?>
 
 						<?php
 						// If comments are open or we have at least one comment, load up the comment template.

@@ -1,6 +1,6 @@
 <?php
 /**
- * Partial template for content in judges page template
+ * Partial template for content categories page template
  *
  * @package understrap
  */
