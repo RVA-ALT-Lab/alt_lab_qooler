@@ -575,6 +575,24 @@ li.active {
   margin-bottom: 1.2em;
 }
 
+.cat-box-icons {
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cat-products {
+  background-image: url(../imgs/product_white.svg);
+}
+
+.cat-wearable {
+  background-image: url(../imgs/wearable_white.svg);
+}
+
+.cat-spaces {
+  background-image: url(../imgs/spaces_white.svg);
+}
+
+
 //*footer*//
 #full-width-page-wrapper {
   padding-bottom: 0;

@@ -25,10 +25,12 @@
 			        // get a sub field value
 			        $name = get_sub_field('category_title');
 			        $description = get_sub_field('category_description');
-			        $html .= '<div class="col-md-9 cat-box">';
-			        $html .= '<h2>' . $name . '</h2>';
-			        $html .= '<div class="cat-desc">' . $description . '</div>';
-			        $html .= '</div>';
+			        $class = get_sub_field('category_class');
+			        $html .= '<div class="col-md-10 cat-box"><div class="row">';
+			        $html .= '<div class="col-md-9"><h2>' . $name . '</h2>';
+			        $html .= '<div class="cat-desc">' . $description . '</div></div>';
+			        $html .= '<div class="col-md-3 cat-box-icons ' . $class .  '"></div>';
+			        $html .= '</div></div>';
 
 			    endwhile;
 

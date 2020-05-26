@@ -4,7 +4,7 @@
     <g id="spaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
        
         <rect id="Rectangle-Copy-22" fill="url(#linearGradient-1)" x="-1597" y="-291" width="2093" height="869"></rect>
-        <polygon id="Triangle-spaces" stroke="#046B99" stroke-width="3" transform="translate(174.500000, 129.500000) rotate(-180.000000) translate(-174.500000, -129.500000) " points="174.5 2 346 257 3 257"></polygon>
+        <polygon id="Triangle-spaces" stroke="#046B99" stroke-width="3"  fill="#fff" transform="translate(174.500000, 129.500000) rotate(-180.000000) translate(-174.500000, -129.500000) " points="174.5 2 346 257 3 257"></polygon>
         <g id="Group-26" transform="translate(130.000000, 34.000000)">
             <g id="Group-13-Copy-3">
                 <rect id="Rectangle" x="56.8018018" y="50.1206897" width="40.1981982" height="51.8793103"></rect>
