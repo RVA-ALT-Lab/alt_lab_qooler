@@ -453,14 +453,11 @@ li.active {
 .judge {
     margin: 30px;
     display: inline-block;
-    background-color: $primary;
     color: #fff;
     height: 400px;
 }
 
-.judge.hover {
-  background-color: transparent;
-}
+
 
 .judge h2 {
   text-align: center;
@@ -488,6 +485,7 @@ li.active {
 .judge-title {
   font-size: .8em;
   text-align: center;
+  padding: 0 20px 20px 20px;
 }
 
 .judge-triangle {
@@ -504,6 +502,12 @@ li.active {
   border-top: 20px solid #fff;
 }
 
+.judge-front{
+  background-color: $primary;
+  height: 400px;
+  width: 100%;
+}
+
 .judge-front, .judge-back {
     backface-visibility: hidden;
     position: absolute;
@@ -512,7 +516,7 @@ li.active {
     border: 1px solid #424242;
     /* box-shadow: 0 0 10px #000; */
     box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
-     transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .judge-back {
