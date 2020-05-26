@@ -108,9 +108,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_template",
                 "operator": "==",
-                "value": "33"
+                "value": "page-templates\/fullwidthpage-judge.php"
             }
         ]
     ],
@@ -122,5 +122,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1590153916
+    "modified": 1590495563
 }
