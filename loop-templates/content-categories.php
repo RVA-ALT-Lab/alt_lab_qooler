@@ -17,27 +17,18 @@
 		<?php
 
 			// check if the repeater field has rows of data
-			if( have_rows('judge') ):
-			    $html = '<div class="judge-holder row">';
+			if( have_rows('category') ):
+			    $html = '<div class="category-holder row">';
 			 	// loop through the rows of data
-			    while ( have_rows('judge') ) : the_row();
+			    while ( have_rows('category') ) : the_row();
 
 			        // get a sub field value
-			        $name = get_sub_field('judge_name');
-			        $title = get_sub_field('judge_title');
-			        $bio = get_sub_field('judge_bio');
-			        $img = get_sub_field('judge_picture')["sizes"]["medium"];
-			        $row = get_row_index();
-			        $html .= '<div class="flip-container col-md-3 judge" id="judge_'.$row.'" onclick="jQuery(\'#judge_'.$row.'\').toggleClass(\'hover\')"><div class="flipper judge-front">';
-					//         <a href="#vento_nadya">
-					$html .=   '<div class="front"><h2>'.$name.'</h2>';
-					$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
-					$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
-
-					//         </a>
-					$html .=  '</div><div class="judge-back">'.$bio.'</div>';
-					//     </div>
-					$html .= '</div>';
+			        $name = get_sub_field('category_title');
+			        $description = get_sub_field('category_description');
+			        $html .= '<div class="col-md-9 cat-box">';
+			        $html .= '<h2>' . $name . '</h2>';
+			        $html .= '<div class="cat-desc">' . $description . '</div>';
+			        $html .= '</div>';
 
 			    endwhile;
 

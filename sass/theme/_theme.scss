@@ -441,7 +441,7 @@ li.active {
   font-weight: 300;
 }
 
-.judge-holder {
+.judge-holder, .category-holder {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -468,6 +468,7 @@ li.active {
 
 .magic-box {
   width: 70%;
+  max-width: 200px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -554,6 +555,25 @@ li.active {
 }
 
 
+//*category details*//
+.cat-box {
+  padding: 60px;
+  background-color: #257EA5;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.cat-box h2 {
+  margin-bottom: 30px;
+}
+
+.cat-box p {
+  background-color: #257EA5;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0;
+  margin-bottom: 1.2em;
+}
 
 //*footer*//
 #full-width-page-wrapper {
@@ -746,8 +766,12 @@ blockquote.default{
     padding-left: 30px;
     padding-right: 30px;
   }
-  .judge-holder {
+  .judge-holder{
     margin: 0 20px;
+  }
+  .category-holder  {
+    margin: 0 auto;
+
   }
 
  }
