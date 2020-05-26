@@ -27,9 +27,9 @@
 			        $description = get_sub_field('category_description');
 			        $class = get_sub_field('category_class');
 			        $html .= '<div class="col-md-10 cat-box"><div class="row">';
-			        $html .= '<div class="col-md-9"><h2>' . $name . '</h2>';
+			         $html .= '<div class="col-md-3 order-sm-12 cat-box-icons ' . $class .  '"></div>';
+			        $html .= '<div class="col-md-9 order-sm-1"><h2>' . $name . '</h2>';
 			        $html .= '<div class="cat-desc">' . $description . '</div></div>';
-			        $html .= '<div class="col-md-3 cat-box-icons ' . $class .  '"></div>';
 			        $html .= '</div></div>';
 
 			    endwhile;
