@@ -56,7 +56,7 @@ function makeArrow (){
 
 }
 
-var body =document.getElementsByTagName("body")[0];
+var body = document.getElementsByTagName("body")[0];
 
 body.onmousemove = function(event) {cursorFinder(event)};
 
@@ -92,4 +92,13 @@ function getPos(el, pos) {
 //from this crazy smart person https://codepen.io/pudinski/pen/xYoVaa/
 function twisterMath(x,y, xShapeCenter, yShapeCenter){
   return  Math.atan2(x - xShapeCenter,-(y - yShapeCenter)) *(180 / Math.PI)
+}
+
+
+//category details switcher 
+const buttons = document.querySelectorAll(".tri-cat")
+for (const button of buttons) {
+  button.addEventListener('click', function(event) {
+    console.log(button.id)
+  })
 }

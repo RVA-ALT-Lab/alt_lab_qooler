@@ -140,6 +140,9 @@
 					</div>
 					<div class="spaces-icon"></div>
 				</div>
+				<div class="col-md-8 offset-md-2" id="expand-details">
+					Details
+				</div>
 				<div class="col-md-4 offset-md-2">
 					<a class="btn btn-learn" href="learn-more">Learn more</a>
 				</div>
