@@ -399,23 +399,39 @@ li.active {
   background-color: #046B99;
 }
 
-//*DETAILS*//
-.details h2 {
+//*DETAILS and participation*//
+.details h2, .entry-content h2 {
   text-align: center;
   color: #4E4E4E;
-  margin: 20px 0;
+  margin: 40px 0 20px 0;
 }
 
 .details-text {
   margin-bottom: 40px;
 }
 
-.details-text p {
+.details-text p, .entry-content p {
   color: #4E4E4E;
   letter-spacing: -1.11px;
   font-size: 1.2em;
   background-color: transparent;
   padding: .3em 0;
+}
+
+.entry-content {
+   color: #4E4E4E;
+   max-width: 1000px;
+   margin: 100px auto;
+ }
+
+.entry-content ul {
+  margin-bottom: 60px;
+}
+
+.entry-content li {
+  color: #4E4E4E;
+  letter-spacing: -1.11px;
+  font-size: 1.2em;
 }
 
 //************************JUDGES************************//
@@ -594,6 +610,9 @@ li.active {
 }
 
 
+
+
+
 //*footer*//
 #full-width-page-wrapper {
   padding-bottom: 0;
@@ -619,6 +638,10 @@ li.active {
 .qooler {
   color: #046B99;
   font-weight: 700;
+}
+
+article {
+   background-color: #f8f8f8;
 }
 
 article a {
