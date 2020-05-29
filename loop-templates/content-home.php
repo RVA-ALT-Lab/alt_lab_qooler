@@ -33,8 +33,8 @@
 			<div class="orange-bars col-md-9 offset-md-3">
 				<div class="row">
 					<div class="col-md-6">
-						<h2 class="bar-highlight top">Behind the Idea: Qatar is
-						<br>getting hotter</h2>
+						<h1 class="bar-highlight top">Behind the Idea: Qatar is
+						<br>getting hotter</h1>
 					</div>
 					<div class="col-md-4">
 						<div class="bar-big bar"></div>
