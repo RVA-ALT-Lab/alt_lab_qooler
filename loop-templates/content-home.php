@@ -142,8 +142,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4" id="cat-detail-holder" style="border:2px solid red">
-					<div id="cat-details">details a</div>
+				<div class="col-md-4" id="cat-detail-holder">
+					<div id="cat-details"></div>
 				</div>
 			</div>
 			<div class="row">

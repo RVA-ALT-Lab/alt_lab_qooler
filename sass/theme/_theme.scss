@@ -359,6 +359,16 @@ li.active {
   margin: 0px auto;
 }
 
+.clicked {
+  transition: all .2s;
+}
+
+.clicked .product-icon {
+    transform: rotate(180deg);
+    background-image: url(../imgs/product_blue.svg);
+    transition: all .5s;
+}
+
 .wearable-icon {
   background-position: center;
   background-size: contain;
@@ -369,6 +379,12 @@ li.active {
   margin: 0px auto;
 }
 
+.clicked .wearable-icon {
+    transform: rotate(180deg);
+    background-image: url(../imgs/wearable_blue.svg);
+     transition: all .5s;
+}
+
 .spaces-icon {
   background-position: center;
   background-size: contain;
@@ -377,6 +393,12 @@ li.active {
   width: 150px;
   height: 150px;
   margin: 0px auto;
+}
+
+.clicked .spaces-icon {
+    transform: rotate(180deg);
+    background-image: url(../imgs/spaces_blue.svg);
+     transition: all .5s;
 }
 
 .btn {

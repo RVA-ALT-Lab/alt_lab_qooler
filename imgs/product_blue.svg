@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="349px" height="260px" viewBox="0 0 349 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Product</title>
-    <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-Copy-22" fill="url(#linearGradient-1)" x="-791" y="-291" width="2093" height="869"></rect>
-        <polygon id="triangle-product" stroke="#fff" fill="#046B99" stroke-width="3" transform="translate(174.500000, 129.500000) rotate(-180.000000) translate(-174.500000, -129.500000) " points="174.5 2 346 257 3 257"></polygon>
-        <text id="Products/Artifacts/I" font-family="DMSans-Bold, DM Sans" font-size="40" font-weight="bold" line-spacing="50" letter-spacing="-0.98666672" fill="#000000">
-            <tspan x="-9.54666616" y="-107.000244">Products/Artifacts/</tspan>
-            <tspan x="49.3733337" y="-57.0002441">Interventions</tspan>
-        </text>
-        <g id="Group-15-Copy" transform="translate(125.000000, 33.000000)" stroke="#fff" stroke-width="3">
-            <g id="Group-14">
-                <path d="M53.4323883,2.79671501 L91.9323883,24.6266119 C95.0644417,26.4025185 97,29.7250509 97,33.3255513 L97,76.6744487 C97,80.2749491 95.0644417,83.5974815 91.9323883,85.3733881 L53.4323883,107.203285 C50.3729245,108.938033 46.6270755,108.938033 43.5676117,107.203285 L5.06761171,85.3733881 C1.9355583,83.5974815 1.58959052e-14,80.2749491 0,76.6744487 L0,33.3255513 C1.33542272e-15,29.7250509 1.9355583,26.4025185 5.06761171,24.6266119 L43.5676117,2.79671501 C46.6270755,1.06196747 50.3729245,1.06196747 53.4323883,2.79671501 Z" id="Polygon" stroke-linejoin="round"></path>
-                <path d="M2.55263158,28.5496183 L43.5876751,49.0186606 C46.3713389,50.4072039 49.6426548,50.4212311 52.438124,49.0566108 L94.4473684,28.5496183 L94.4473684,28.5496183" id="Path-5"></path>
-                <line x1="48.0745614" y1="49.5419847" x2="48.0745614" y2="107.480916" id="Path-6"></line>
+<svg width="343px" height="255px" viewBox="0 0 343 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 56</title>
+    <g id="product-blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-56">
+            <g id="Group-30" fill="#046B99">
+                <polygon id="Triangle-Copy-26" transform="translate(171.500000, 127.500000) rotate(-180.000000) translate(-171.500000, -127.500000) " points="171.5 0 343 255 0 255"></polygon>
             </g>
-            <line x1="26" y1="14" x2="72" y2="39" id="Path-7"></line>
+            <g id="Group-15-Copy" transform="translate(122.000000, 37.000000)" stroke-width="3">
+                <g id="Group-14" transform="translate(48.500000, 55.000000) scale(1, -1) translate(-48.500000, -55.000000) " stroke="#FFFFFF">
+                    <path d="M53.4323883,2.79671501 L91.9323883,24.6266119 C95.0644417,26.4025185 97,29.7250509 97,33.3255513 L97,76.6744487 C97,80.2749491 95.0644417,83.5974815 91.9323883,85.3733881 L53.4323883,107.203285 C50.3729245,108.938033 46.6270755,108.938033 43.5676117,107.203285 L5.06761171,85.3733881 C1.9355583,83.5974815 1.58959052e-14,80.2749491 0,76.6744487 L0,33.3255513 C1.33542272e-15,29.7250509 1.9355583,26.4025185 5.06761171,24.6266119 L43.5676117,2.79671501 C46.6270755,1.06196747 50.3729245,1.06196747 53.4323883,2.79671501 Z" id="Polygon" stroke-linejoin="round"></path>
+                    <path d="M2.55263158,28.5496183 L43.5876751,49.0186606 C46.3713389,50.4072039 49.6426548,50.4212311 52.438124,49.0566108 L94.4473684,28.5496183 L94.4473684,28.5496183" id="Path-5"></path>
+                    <line x1="48.0745614" y1="49.5419847" x2="48.0745614" y2="107.480916" id="Path-6"></line>
+                </g>
+                <line x1="26" y1="14" x2="72" y2="39" id="Path-7" stroke="#046B99"></line>
+            </g>
         </g>
     </g>
 </svg>
