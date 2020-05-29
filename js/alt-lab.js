@@ -100,22 +100,31 @@ if (document.querySelectorAll(".tri-cat")){
   const buttons = document.querySelectorAll(".tri-cat");
   const catHolder = document.getElementById('cat-detail-holder');
   const catDetails = document.getElementById('cat-details');
+  const wear = document.getElementById('wearable-button');
+  const product = document.getElementById('product-button');
+  const spaces = document.getElementById('spaces-button');
   for (const button of buttons) {
     button.addEventListener('click', function(event) {
-      console.log('click')
+      button.classList.toggle('clicked');
       if(button.id == 'product-button'){
-        catDetails.innerHTML = "I know about products";
+         catDetails.innerHTML = "I know about products";
          catHolder.classList.remove("offset-md-4", "offset-md-8");
+         wear.classList.remove('clicked');
+         spaces.classList.remove('clicked');
       }
       if(button.id == 'wearable-button'){
         catDetails.innerHTML = "I know about wearable";
         catHolder.classList.add('offset-md-4');
         catHolder.classList.remove("offset-md-8");
+        product.classList.remove('clicked');
+        spaces.classList.remove('clicked');
       }
       if(button.id == 'spaces-button'){
         catDetails.innerHTML = "I know about space";
         catHolder.classList.add('offset-md-8');
         catHolder.classList.remove("offset-md-4");
+        wear.classList.remove('clicked');
+        product.classList.remove('clicked');
       }
     })
   }
