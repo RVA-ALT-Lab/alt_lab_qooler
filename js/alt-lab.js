@@ -96,9 +96,27 @@ function twisterMath(x,y, xShapeCenter, yShapeCenter){
 
 
 //category details switcher 
-const buttons = document.querySelectorAll(".tri-cat")
-for (const button of buttons) {
-  button.addEventListener('click', function(event) {
-    console.log(button.id)
-  })
+if (document.querySelectorAll(".tri-cat")){
+  const buttons = document.querySelectorAll(".tri-cat");
+  const catHolder = document.getElementById('cat-detail-holder');
+  const catDetails = document.getElementById('cat-details');
+  for (const button of buttons) {
+    button.addEventListener('click', function(event) {
+      console.log('click')
+      if(button.id == 'product-button'){
+        catDetails.innerHTML = "I know about products";
+         catHolder.classList.remove("offset-md-4", "offset-md-8");
+      }
+      if(button.id == 'wearable-button'){
+        catDetails.innerHTML = "I know about wearable";
+        catHolder.classList.add('offset-md-4');
+        catHolder.classList.remove("offset-md-8");
+      }
+      if(button.id == 'spaces-button'){
+        catDetails.innerHTML = "I know about space";
+        catHolder.classList.add('offset-md-8');
+        catHolder.classList.remove("offset-md-4");
+      }
+    })
+  }
 }

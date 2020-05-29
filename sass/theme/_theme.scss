@@ -390,6 +390,12 @@ li.active {
   border: 2px solid #046B99;
   border-radius: 62px; 
   color: #046B99; 
+  transition: .2s all;
+}
+
+.btn-learn:hover {
+  background-color: #046B99;
+  color: #fff;
 }
 
 .btn-submit {
@@ -397,6 +403,12 @@ li.active {
   border-radius: 62px; 
   color: #fff; 
   background-color: #046B99;
+  transition: .2s all;
+}
+
+.btn-submit:hover {
+  background-color: transparent;
+  color: #046B99;
 }
 
 .tri-cat {

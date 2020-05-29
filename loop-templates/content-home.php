@@ -128,7 +128,7 @@
 					</div>
 					<div class="product-icon"></div>
 				</div>
-				<div class="col-md-4 tri-cat" id="wearble-button">
+				<div class="col-md-4 tri-cat" id="wearable-button">
 					<div class="cat-title-holder">					
 						<h3><br>Wearables</h3><!--shameful but we're in a hurry-->
 					</div>
@@ -140,11 +140,15 @@
 					</div>
 					<div class="spaces-icon"></div>
 				</div>
-				<div class="col-md-8 offset-md-2" id="expand-details">
-					Details
+			</div>
+			<div class="row">
+				<div class="col-md-4" id="cat-detail-holder" style="border:2px solid red">
+					<div id="cat-details">details a</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-4 offset-md-2">
-					<a class="btn btn-learn" href="learn-more">Learn more</a>
+					<a class="btn btn-learn" href="learn-more" aria-label="Learn more about the submission categories.">Learn more</a>
 				</div>
 				<div class="col-md-6">
 					<a class="btn btn-submit" href="submit">Submit an entry</a>
