@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="349px" height="260px" viewBox="0 0 349 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Spaces</title>   
-    <g id="spaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-       
-        <rect id="Rectangle-Copy-22" fill="url(#linearGradient-1)" x="-1597" y="-291" width="2093" height="869"></rect>
-        <polygon id="Triangle-spaces" stroke="#fff" fill="#046B99" stroke-width="3" transform="translate(174.500000, 129.500000) rotate(-180.000000) translate(-174.500000, -129.500000) " points="174.5 2 346 257 3 257"></polygon>
-        <g id="Group-26" transform="translate(130.000000, 34.000000)">
-            <g id="Group-13-Copy-3">
-                <rect id="Rectangle" x="56.8018018" y="50.1206897" width="40.1981982" height="51.8793103"></rect>
-                <polyline id="Path-2" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0 50.1206897 0 0 55.9279279 0 55.9279279 19.6000242"></polyline>
-                <polyline id="Path-3" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0 67.3788726 0 102 96.1261261 102 96.1261261 51.8793103 55.406031 51.8793103"></polyline>
-                <line x1="55.2793497" y1="39.5689655" x2="55.7026323" y2="65.9482759" id="Path-4" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
-                <line x1="56.3648649" y1="81.7758621" x2="56.3648649" y2="101.12069" id="Path-4-Copy" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
-            </g>
-            <g id="Group-25" transform="translate(56.000000, 53.000000)">
-                <mask id="mask-3" fill="white">
-                    <use xlink:href="#path-2"></use>
-                </mask>
-                <g id="Mask"></g>
-                <g mask="url(#mask-3)" stroke="#fff" stroke-linecap="square" stroke-width="3">
-                    <g transform="translate(-1.826087, -18.236364)">
-                        <line x1="0.326086957" y1="31.7363636" x2="39.2173913" y2="65.3636364" id="Line-2-Copy-4"></line>
-                        <line x1="1.43478261" y1="49.6545455" x2="36.2173913" y2="80.2" id="Line-2-Copy-22"></line>
-                        <line x1="4.43478261" y1="17.1090909" x2="42.326087" y2="50.7363636" id="Line-2-Copy-19"></line>
-                        <line x1="4.43478261" y1="0.272727273" x2="41.9522131" y2="31.9227273" id="Line-2-Copy-20"></line>
-                    </g>
-                </g>
-            </g>
-        </g>
+<svg width="343px" height="255px" viewBox="0 0 343 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>spaces blue</title>
+    <g id="spaces-blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle-Copy-32" fill="#046B99" transform="translate(171.500000, 127.500000) rotate(-180.000000) translate(-171.500000, -127.500000) " points="171.5 0 343 255 0 255"></polygon>
+        <polyline id="Path-2" stroke="#FFFBFB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(150.963964, 116.939655) scale(1, -1) translate(-150.963964, -116.939655) " points="123 142 123 91.8793103 178.927928 91.8793103 178.927928 111.479335"></polyline>
+        <polyline id="Path-3" stroke="#FFFBFB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(171.063063, 65.060345) scale(1, -1) translate(-171.063063, -65.060345) " points="123 55.4995622 123 90.1206897 219.126126 90.1206897 219.126126 40 178.406031 40"></polyline>
+        <line x1="178.27935" y1="76.0517241" x2="178.702632" y2="102.431034" id="Path-4" stroke="#FFFBFB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(178.490991, 89.241379) scale(1, -1) translate(-178.490991, -89.241379) "></line>
+        <line x1="179.364865" y1="40.8793103" x2="179.364865" y2="60.2241379" id="Path-4-Copy" stroke="#FFFBFB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(179.364865, 50.551724) scale(1, -1) translate(-179.364865, -50.551724) "></line>
     </g>
 </svg>
