@@ -107,20 +107,20 @@ if (document.querySelectorAll(".tri-cat")){
     button.addEventListener('click', function(event) {
       button.classList.toggle('clicked');
       if(button.id == 'product-button'){
-         catDetails.innerHTML = "I know about products";
+         catDetails.innerHTML = "Parasols, fans, cooling bottles, sunglasses, sun creams, etc., are all items designed to protect us from the sun and heat. How could these or other comparable designs be improved upon? What augmentations or enhancements would you make?";
          catHolder.classList.remove("offset-md-4", "offset-md-8");
          wear.classList.remove('clicked');
          spaces.classList.remove('clicked');
       }
       if(button.id == 'wearable-button'){
-        catDetails.innerHTML = "I know about wearable";
+        catDetails.innerHTML = "Air conditioning, while keeping us cool, contributes to climate change. Cooling individuals are usually more energy-efficient than cooling an entire building. How could something we wear assist in making our experience of heat more bearable/comfortable?";
         catHolder.classList.add('offset-md-4');
         catHolder.classList.remove("offset-md-8");
         product.classList.remove('clicked');
         spaces.classList.remove('clicked');
       }
       if(button.id == 'spaces-button'){
-        catDetails.innerHTML = "I know about space";
+        catDetails.innerHTML = "How does one design spaces – open spaces, interior spaces, parks, or recreational spaces –that can respond to a changing environment? How will our buildings look, what will they be made of?  How will our parks or our cars be redesigned for a hotter environment?";
         catHolder.classList.add('offset-md-8');
         catHolder.classList.remove("offset-md-4");
         wear.classList.remove('clicked');
