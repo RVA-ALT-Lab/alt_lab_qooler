@@ -148,10 +148,10 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 offset-md-2">
-					<a class="btn btn-learn" href="learn-more" aria-label="Learn more about the submission categories.">Learn more</a>
+					<a class="btn btn-learn" href="<?php echo esc_url( home_url( '/' ) ); ?>how-to-participate/" aria-label="Learn more about the submission categories.">Learn more</a>
 				</div>
 				<div class="col-md-6">
-					<a class="btn btn-submit" href="submit">Submit an entry</a>
+					<a class="btn btn-submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
 				</div>
 			</div>
 		</div>		
@@ -190,7 +190,7 @@
 				<p>Honorable mentions Certificate</p>
 
 				<p>Please address any questions directly to the VCUarts Qatar Research Office – Fikria El Kaouakibi, Assistant Director of Research, VCUarts Qatar, +974-344020538, or email Qooler@vcu.edu.</p>
-				<a class="btn btn-learn" href="learn-more">Learn more</a>
+				<a class="btn btn-learn" href="<?php echo esc_url( home_url( '/' ) ); ?>how-to-participate/">Learn more</a>
 			</div>
 		</div>
 	</div>
