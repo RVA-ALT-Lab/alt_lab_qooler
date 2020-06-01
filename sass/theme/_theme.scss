@@ -518,12 +518,20 @@ li.active {
 }
 
 
-
 .judge h2 {
   text-align: center;
   font-size: 1.4em;
   margin-top: 30px;
   font-weight: 300;
+}
+
+.judge .judge-back h2 {
+  text-align: left;  
+}
+
+.judge-back .judge-title {
+  text-align: left;
+  padding: 5px 0px 20px 0px;
 }
 
 .magic-box {

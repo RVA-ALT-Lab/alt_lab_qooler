@@ -142,7 +142,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4" id="cat-detail-holder">
+				<div class="col-md-5" id="cat-detail-holder">
 					<div id="cat-details"></div>
 				</div>
 			</div>

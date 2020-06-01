@@ -35,7 +35,7 @@
 					$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
 
 					//         </a>
-					$html .=  '</div><div class="judge-back">'.$bio.'</div>';
+					$html .=  '</div><div class="judge-back"><h2>'.$name.'</h2><div class="judge-title">'.$title.'</div>'.$bio.'</div>';
 					//     </div>
 					$html .= '</div>';
 
