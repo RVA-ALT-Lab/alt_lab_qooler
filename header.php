@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<nav class="navbar navbar-expand-md" id="the-menu">
 				<!--<div class="translation-block"><a id="translate-en" href="#">EN</a><a id="translate-ar" href="#">AR</a></div>-->
-				<div class="qooler-nav">
+				<div class="qooler-nav col-md-8 offset-md-2">
 					<!-- Your site title as branding in the menu -->					
 					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="<?php echo get_template_directory_uri() . '/imgs/qooler_text_logo.svg' ?>" class="align-right fluid q-logo" alt="Qooler logo."></a>							
 

@@ -14,6 +14,7 @@
 body {
   max-width: 100%;
   overflow-x: hidden;
+  background-image: url(../imgs/background_gradient.png);
 }
 
 #navbarNavDropdown {
@@ -59,6 +60,11 @@ li.active {
   padding: 0;
 }
 
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #main-menu {
   border-bottom: 2px solid #046B99;
   padding-left: 30px;
@@ -93,7 +99,8 @@ li.active {
 
 .qooler-nav{
   flex-basis: 100%;  
-  display: flex; 
+  display: flex;
+  background-color: $white;
 }
 
 .btn-qooler {
@@ -221,7 +228,6 @@ li.active {
   padding: 0;
 }
 
-
 //*map zone*//
 .map-zone {
   padding-top: 120px;
@@ -337,6 +343,7 @@ li.active {
 .categories {
   padding: 50px 100px;
   background-image: linear-gradient(175deg, #CEF6E4 29%, #7BE5E5 100%);
+  width: 100%;
 }
 
 .cat-title-holder {
@@ -667,6 +674,7 @@ li.active {
 //*footer*//
 #full-width-page-wrapper {
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 #wrapper-footer {
