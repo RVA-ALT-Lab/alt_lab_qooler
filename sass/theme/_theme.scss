@@ -133,9 +133,14 @@ li.active {
   width: 560px;
 }
 //***************WEATHER BLOCK********************//
+#conditions {
+  text-align: right;
+  color: #2d789d;
+}
+
 #how-hot {
   font-family: sans-serif;
-  font-size: 10em;
+  font-size: 6em;
   font-weight: 800;
   color: #2d789d;
   right: 7%;
@@ -156,12 +161,12 @@ li.active {
 }
 
 .weather-row {
-  background-image:linear-gradient(to right, rgba(245, 246, 252, 0.4), rgba(117, 19, 93, 0.6)), url('../imgs/desert-pano.jpg');
+  background-image:linear-gradient(to left, rgba(245, 246, 252, 0.4), rgba(117, 19, 93, 0.6)), url('../imgs/desert-pano.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: auto;
-  padding: 120px 8vw;
+  padding: 80px 8vw;
 }
 
 .triangle-down {
@@ -181,8 +186,15 @@ li.active {
 }
 
 .orange-bars {
-  margin-top: 50px;
+  margin-top: -30px;
   position: relative;
+  padding: 3px;
+}
+
+.orange-bars-donut {
+  background: #f8f8f8;
+  color: $dark-gray;
+  padding: 10px;
 }
 
 .orange-bars .col-md-6, .orange-bars .col-md-4, .orange-bars .col-md-2{
@@ -202,7 +214,7 @@ li.active {
 
 .orange-bars .bar-highlight { 
   color: #fff;
-  padding: 20px;
+  padding: 5px;
   width: 100%;
 }
 
@@ -230,7 +242,7 @@ li.active {
 
 //*map zone*//
 .map-zone {
-  padding-top: 120px;
+  padding-top: 80px;
   background-color: #f8f8f8;
   padding-bottom: 60px;
 }
@@ -239,15 +251,16 @@ li.active {
   padding-bottom: 0;
   padding-top: 0;
   background-color: #F8F8F8;
-  font-family: DMSans-Medium;
+  font-family: DMSans-regular;
   color: #4E4E4E;
-  letter-spacing: -1.11px;
-  font-size: 2em;
+  // letter-spacing: -1.11px;
+  font-size: 1.1em;
 }
 
 .map-tri {
   display: block;
   margin: 0 auto;
+  padding: 0 1em 0 2em;
 }
 
 .orange-bg {
@@ -697,6 +710,7 @@ li.active {
 .qooler {
   color: #046B99;
   font-weight: 700;
+  padding: .4em .2em 0 .2em;
 }
 
 article {
@@ -852,7 +866,7 @@ blockquote.default{
 
 @media (max-width: 768px) {
   #how-hot {
-    font-size: 6em;
+    font-size: 3em;
     text-align: left;
   }
 
@@ -860,7 +874,7 @@ blockquote.default{
     padding: 20px 40px;
   }
   .map-zone p {
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 10px 30px;
   }
 

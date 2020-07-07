@@ -15,15 +15,16 @@
 	</header><!-- .entry-header -->
 	<div class="weather-row row">
 				<div class="col-md-4 heavy">
-					2020<br>
+					<!-- 2020<br>
 					Qooler:<br>
 					A design<br>
 					competition<br>
 					for a cooler<br>
 					future | <span class="triangle-down"></span><br>
-					VCU Qatar<br>
+					VCU Qatar<br> -->
 				</div>
 				<div class="col-md-8" id="weather-block">
+					<div id="conditions">Current conditions in Doha, Qatar</div>
 					<div id="how-hot"></div>
 				</div>
 		</div>
@@ -33,8 +34,8 @@
 			<div class="orange-bars col-md-9 offset-md-3">
 				<div class="row">
 					<div class="col-md-6">
-						<h1 class="bar-highlight top">Behind the Idea: Qatar is
-						<br>getting hotter</h1>
+						<div class="bar-highlight top"><h1 class="orange-bars-donut">About Qooler</h1>
+					</div>
 					</div>
 					<div class="col-md-4">
 						<div class="bar-big bar"></div>
@@ -54,17 +55,19 @@
 			<div class="col-md-4 weird-map">
 				<img class="fluid map-tri" src="<?php echo get_template_directory_uri();?>/imgs/map_tri.svg" alt="A triangular map view of the Earth.">
 			</div>
-			<div class="offset-md-2 col-md-6 map-text">
-				<p>This competition seeks to find solutions to the problems for humans that climate change creates in a desert/marine climate like Qatar.</p>
-				<p>Being outside – whether working or playing – needs to be a part of life. But heat and humidity are uncomfortable, but in some cases, it can be dangerous.</p>
-				<p><span class="qooler">Qooler</span> is a design competition that seeks solutions that enable a comfortable and enjoyable life outdoors despite increasing heat</p>
+			<div class="col-md-8 map-text">
+				<p>VCUarts Qatar presents a design competition for a cooler future.</p>
+				<p>Qatar is the inspiration for this design competition.  A hot, humid climate where the temperatures can exceed 45 degrees C on a summer day.   But Qatar is not alone.  All over the world, climate change is a reality - global warming, sandstorms, overheating oceans, and drought are part of the increasingly worrying picture.</p>
+				<h2 class="qooler">Qooler is about ideas</h2><p>Through participation in Qooler, we look for individuals to contribute to the global discourse on climate change and explore how experimentation, innovation, invention and design can make all the difference to the world.</p>
+				<p>Through Qooler we seek solutions to the problems that climate change creates for humankind.</p>
+				<h2 class="qooler">How to participate</h2><p>We want to encourage thinking beyond today’s limitations.  We want to see, hear and discuss concepts, prototypes, and pioneering designs intended to push the boundaries of what’s possible in the industry and excite the imagination.</p>
 			</div>
 		</div>
 	</div>
 </div>
 <!--map zone end--> 
 <!--conditions in the mid east start--> 
-<div class="container-fluid me-zone">
+<!-- <div class="container-fluid me-zone">
 	<div class="row orange-bg">
 		<div class="col-md-6">
 			<div class="callout">“Conditions in the Middle East could become so hot and humid by the end of the century that being outside for more than six hours would be intolerable.” [1]</div>
@@ -72,11 +75,11 @@
 		<div class="col-md-6 thermal-globe">			
 		</div>
 	</div>
-</div>
+</div> -->
 <!--conditions in the mid east END--> 
 
 <!--qatar stats start--> 
-<div class="container-fluid qatar-zone">
+<!-- <div class="container-fluid qatar-zone">
 	<div class="row gray-bg glasses center">
 		<div class="col-md-8 offset-md-2">
 			<div class="qatar-text">Qatar is home to nearly 3 million people. All residents need a way to live in an increasingly hotter country. We look to human ingenuity for solutions to make life in the desert peninsula more comfortable.</div>
@@ -84,11 +87,11 @@
 		<div class="col-md-6 thermal-globe">			
 		</div>
 	</div>
-</div>
+</div> -->
 <!--qatar stats END--> 
 
 <!--doha start--> 
-<div class="container-fluid me-zone">
+<!-- <div class="container-fluid me-zone">
 	<div class="row orange-bg flip">
 		<div class="col-md-6">
 			<div class="callout">“Qatar, most notably, is in danger because Doha is uniquely geographically positioned to receive hot dry air from the desert interior to the west and hot moist air from the Gulf.” [2]</div>
@@ -96,10 +99,10 @@
 		<div class="col-md-6 dunes">			
 		</div>
 	</div>
-</div>
+</div> -->
 <!--doha END--> 
 <!--you charge start--> 
-<div class="container-fluid charge">
+<!-- <div class="container-fluid charge">
 	<div class="row gray-bg glasses left">
 		<div class="col-md-8 offset-md-2">
 			<h2>This is where YOU and your design can make a difference</h2>
@@ -108,7 +111,7 @@
 		<div class="col-md-6 thermal-globe">			
 		</div>
 	</div>
-</div>
+</div> -->
 <!--your charge END--> 
 
 <!--three categories start--> 
