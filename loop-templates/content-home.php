@@ -143,18 +143,13 @@
 					</div>
 					<div class="spaces-icon"></div>
 				</div>
-			</div>
+			</div>			
 			<div class="row">
-				<div class="col-md-5" id="cat-detail-holder">
-					<div id="cat-details"></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 offset-md-2">
-					<a class="btn btn-learn" href="<?php echo esc_url( home_url( '/' ) ); ?>how-to-participate/" aria-label="Learn more about the submission categories.">Learn more</a>
-				</div>
-				<div class="col-md-6">
+				<div class="col-md-2">
 					<a class="btn btn-submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
+				</div>
+				<div class="col-md-8 offset-md-2" id="cat-detail-holder">
+					<div id="cat-details"></div>
 				</div>
 			</div>
 		</div>		
