@@ -240,6 +240,34 @@ li.active {
   padding: 0;
 }
 
+.ugly {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, rgb(197,44,128), rgb(243,119,23));
+  padding-left: 20px;  
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  background-color: #f8f8f8;
+  display: block;
+}
+
+.ugly:after {
+  content: '';
+  position: absolute;
+  top:20px;
+  left: -5px;
+  width: 80%;
+  height: 80px;
+  background: linear-gradient(351deg, rgba(243,119,23,1) 0%, rgba(197,44,128,1) 100%);
+  z-index: -1;
+}
+
+.ugly h1 {
+  font-size: 1.5em;
+}
+
 //*map zone*//
 .map-zone {
   padding-top: 80px;
