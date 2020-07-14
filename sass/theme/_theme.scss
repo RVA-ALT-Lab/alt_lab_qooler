@@ -254,7 +254,7 @@ li.active {
 .ugly:after {
   content: '';
   position: absolute;
-  top:20px;
+  top:30px;
   left: -5px;
   width: 90%;
   height: 50px;
@@ -262,13 +262,26 @@ li.active {
   z-index: -10;
 }
 
-.ugly h1 {
+.ugly h1, h2.ugly  {
   font-size: 1.5em;
-  padding-left: 20px;  
+  padding: 5px 0 5px 20px;  
   background-color: #f8f8f8;
   width: 100%;
   height: auto;
   margin:0;
+}
+
+.cat-holder {
+  z-index: 5;
+}
+
+
+h2.ugly:after{
+    height: 20px;
+}
+
+.cat-details {
+  padding-top: 30px;
 }
 
 //*map zone*//
