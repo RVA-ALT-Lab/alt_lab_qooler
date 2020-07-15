@@ -60,7 +60,7 @@
 				<p>Qatar is the inspiration for this design competition.  A hot, humid climate where the temperatures can exceed 45 degrees C on a summer day.   But Qatar is not alone.  All over the world, climate change is a reality - global warming, sandstorms, overheating oceans, and drought are part of the increasingly worrying picture.</p>
 				<h2 class="qooler">Qooler is about ideas</h2><p>Through participation in Qooler, we look for individuals to contribute to the global discourse on climate change and explore how experimentation, innovation, invention and design can make all the difference to the world.</p>
 				<p>Through Qooler we seek solutions to the problems that climate change creates for humankind.</p>
-				<h2 class="qooler">How to participate</h2><p>We want to encourage thinking beyond today’s limitations.  We want to see, hear and discuss concepts, prototypes, and pioneering designs intended to push the boundaries of what’s possible in the industry and excite the imagination.</p>
+				<h2>How to participate</h2><p>We want to encourage thinking beyond today’s limitations.  We want to see, hear and discuss concepts, prototypes, and pioneering designs intended to push the boundaries of what’s possible in the industry and excite the imagination.</p>
 			</div>
 		</div>
 	</div>
@@ -146,7 +146,7 @@
 			</div>			
 			<div class="row">
 				<div class="col-md-2">
-					<a class="btn btn-submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
+					<a class="qooler submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
 				</div>
 				<div class="col-md-8 offset-md-2" id="cat-detail-holder">
 					<div id="cat-details"></div>

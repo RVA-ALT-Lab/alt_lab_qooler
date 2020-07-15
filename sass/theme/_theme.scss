@@ -752,9 +752,18 @@ h2.ugly:after{
 
 //************************BASIC CONTENT CHOICES************************//
 .qooler {
-  color: #046B99;
+  color: #000;
   font-weight: 700;
   padding: .4em .2em 0 .2em;
+  border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left,#c52c80,#f37717);
+    display: inline-block;
+}
+
+.qooler.submit {
+  width: 140px;
+  text-decoration: none;
 }
 
 article {
