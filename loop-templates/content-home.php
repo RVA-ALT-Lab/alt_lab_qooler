@@ -157,7 +157,37 @@
 </div>
 <!--three categories END--> 
 
-<!--you charge start--> 
+<!--guidelines start-->
+<div class="container-fluid details">
+	<div class="row white-bg">
+		<div class="col-md-12">
+			<h2>Guidelines</h2>
+		</div>
+		<div class="col-md-8">						
+			<div class="details-text">
+				<h3>Eligibility</h3>
+				<p>The competition is open to all applicants aged 18 and up. Competitors can enter alone or a team.</p>
+ 				<ul>
+ 					<li>The design must be your original work and idea.</li>
+ 					<li>You must have all rights to the work and idea and have not entered into commercial or licensing arrangements with any other entity at the time of entry.</li>
+ 					<li>You will have read and signed our terms and conditions of participation upon submission of your work.</li>
+ 				</ul>
+			</div>
+			<div class="details-text">
+				<h3>Criteria</h3>
+				<p>The competition wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the outdoors, considering the heat, humidity, air quality problems posed by the ongoing climate crisis around the world. </p> 			
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo get_template_directory_uri();?>/imgs/venn.png" class="fluid" alt="Venn diagram showing relationship between desireability, viability, and feasibility.">
+		</div>
+	</div>
+</div>
+<!--your charge END--> 
+<!--guidelines end-->
+
+<!--timeline start--> 
 <div class="container-fluid">
 	<div class="row timeline">
 		<div class="col-md-12">
@@ -181,35 +211,7 @@
 		</div>			
 	</div>
 </div>
-<div class="container-fluid details">
-	<div class="row gray-bg glasses center">
-		<div class="col-md-8 offset-md-2">			
-			<h2>Awards and Exhibitions</h2>
-			<div class="details-text">
-				<p>The winning submissions will be announced at an awards ceremony, via national and international media and exhibited in Qatar at Tasmeem Doha in the Spring of 2021.</p>
- 
-				<p>Tasmeem Doha is VCUarts Qatar’s biennial international conference focusing on contemporary themes in arts and design.</p>
-			</div>
-			<h2>Award Ceremony</h2>
-			<div class="details-text">
-				<p>Prizes and certificates will be awarded to the selected designer(s) and presented during the competition’s award ceremony in conjunction with the Tasmeem 2021 Conference. </p>
- 
-				<p>Endorsed by the Qatar Foundation Research and Development and innovation (RDI) with jury members from academia and practice.</p>
-			</div>
-			<h2>Price Categories</h2>
-			<div class="details-text">
-				<p>1st Prize $ 5,000</p>
-				<p>2nd Prize $ 3,000</p>
-				<p>3rd Prize $ 2,000</p>
-				<p>Honorable mentions Certificate</p>
-
-				<p>Please address any questions directly to the VCUarts Qatar Research Office – Fikria El Kaouakibi, Assistant Director of Research, VCUarts Qatar, +974-344020538, or email Qooler@vcu.edu.</p>
-				<a class="btn btn-learn" href="<?php echo esc_url( home_url( '/' ) ); ?>how-to-participate/">Learn more</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!--your charge END--> 
+<!--timeline end-->
 		
 
 	<div class="entry-content">
