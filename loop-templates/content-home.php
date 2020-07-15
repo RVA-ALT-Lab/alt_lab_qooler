@@ -165,19 +165,19 @@
 		</div>
 		<div class="col-md-3">
 			<div class="date-box plain">July 2020</div>
-		<p>Competition registration starts when the website launches.</p>	
+		<div class="timeline-detail">Competition registration starts<br>when the website launches.</div>	
 		</div>
 		<div class="col-md-3">
 		<div class="date-box plain">Dec 2020</div>	
-		<p>Design submission</p>	
+		<div class="timeline-detail">Design submission</div>
 		</div>
 		<div class="col-md-3">
 		<div class="date-box plain">Jan-Feb 2021</div>	
-		<p>Review of Design by Jury</p>	
+		<div class="timeline-detail">Review of Design by Jury</div>	
 		</div>
 		<div class="col-md-3">
 		<div class="date-box ugly">Mar 2021</div>	
-		<p>Award date TBC</p>	
+		<div class="timeline-detail">Award date TBC</div>
 		</div>			
 	</div>
 </div>

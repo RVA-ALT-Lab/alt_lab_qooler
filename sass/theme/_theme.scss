@@ -518,19 +518,44 @@ h2.ugly:after{
   margin: 30px auto 0 auto; 
   text-align: center;
   vertical-align: middle;
-  padding-top: 17%;
+  padding-top: 16%;
   line-height: 1;
   font-size: .8em;
+  color: #424242;
 }
 
 .plain {
-   border: 2px solid #7e8282;
+   border: 3px solid #7e8282;
 }
 
+// .plain:after{
+//   content:'';
+//   border: 2px dashed red;
+//   border-image-slice: 1;
+//   border-image-source: linear-gradient(to left, rgb(197,44,128), rgb(243,119,23));
+//   position: absolute;
+//   width: 100px;
+// }
+
 .date-box.ugly {
-  border: 2px solid;
+  border: 3px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, rgb(197,44,128), rgb(243,119,23));
+}
+
+.timeline .col-md-3 {
+  text-align: center;
+}
+
+.timeline-detail {
+  background-color: #ebfbf9;
+  font-size: .9em;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
 }
 
 .details h2, .entry-content h2 {
