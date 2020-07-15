@@ -596,6 +596,29 @@ h2.ugly:after{
   font-size: 1.2em;
 }
 
+.criteria-row {
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.criteria-number {
+  font-size: 3em;
+  font-weight: 600;
+  color: #424242;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  float: left;
+  margin-top: 40px;
+}
+
+.criteria-text {
+  display: inline-block;
+  margin: 40px;
+  width: 500px;
+}
+
 //************************JUDGES************************//
 .blue-header {
   background-color: $primary;
