@@ -158,16 +158,32 @@
 <!--three categories END--> 
 
 <!--you charge start--> 
+<div class="container-fluid">
+	<div class="row timeline">
+		<div class="col-md-12">
+			<h2>Competition timeline</h2>
+		</div>
+		<div class="col-md-3">
+			<div class="date-box">July 2020</div>
+		<p>Competition registration starts when the website launches.</p>	
+		</div>
+		<div class="col-md-3">
+		<div class="date-box">Dec 2020</div>	
+		<p>Design submission</p>	
+		</div>
+		<div class="col-md-3">
+		<div class="date-box">Jan-Feb 2021</div>	
+		<p>Review of Design by Jury</p>	
+		</div>
+		<div class="col-md-3">
+		<div class="date-box ugly">Mar 2021</div>	
+		<p>Award date TBC</p>	
+		</div>			
+	</div>
+</div>
 <div class="container-fluid details">
 	<div class="row gray-bg glasses center">
-		<div class="col-md-8 offset-md-2">
-			<h2>Competition timeline</h2>
-			<div class="details-text">
-				<p>Competition registration starts when the website launches.</p>
-				<p>Design submission by December 2020</p>
-				<p>Review of Design by Jury by Jan-Feb 2021</p>
-				<p>Award date TBC ( March 2021)</p>
-			</div>
+		<div class="col-md-8 offset-md-2">			
 			<h2>Awards and Exhibitions</h2>
 			<div class="details-text">
 				<p>The winning submissions will be announced at an awards ceremony, via national and international media and exhibited in Qatar at Tasmeem Doha in the Spring of 2021.</p>

@@ -507,6 +507,25 @@ h2.ugly:after{
 
 
 //*DETAILS and participation*//
+
+.timeline {
+  background-color: #ebfbf9;
+}
+
+.date-box {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto 0 auto;
+  border: 2px solid #7e8282;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 17%;
+  line-height: 1;
+  font-size: .8em;
+}
+
+
+
 .details h2, .entry-content h2 {
   text-align: center;
   color: #4E4E4E;
