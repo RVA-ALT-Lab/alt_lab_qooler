@@ -175,8 +175,16 @@
 			</div>
 			<div class="details-text">
 				<h3>Criteria</h3>
-				<p>The competition wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the outdoors, considering the heat, humidity, air quality problems posed by the ongoing climate crisis around the world. </p> 	
-				<div class="criteria-list">
+				<p>The competition wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the outdoors, considering the heat, humidity, air quality problems posed by the ongoing climate crisis around the world. </p> 						
+			</div>			
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo get_template_directory_uri();?>/imgs/venn.png" class="fluid" alt="Venn diagram showing relationship between desireability, viability, and feasibility.">
+		</div>
+	</div>
+	<div class="row white-bg">
+		<div class="col-md-12">
+			<div class="criteria-list">
 					<div class="criteria-row">
 						<div class="criteria-number ugly">
 							1
@@ -216,11 +224,7 @@
 							<p>The design should consider the use of reusable or recycled materials, be biodegradable, and have an extended lifespan.</p>
 						</div>
 					</div>
-				</div>		
-			</div>			
-		</div>
-		<div class="col-md-4">
-			<img src="<?php echo get_template_directory_uri();?>/imgs/venn.png" class="fluid" alt="Venn diagram showing relationship between desireability, viability, and feasibility.">
+				</div>	
 		</div>
 	</div>
 </div>
