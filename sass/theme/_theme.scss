@@ -515,8 +515,7 @@ h2.ugly:after{
 .date-box {
   width: 100px;
   height: 100px;
-  margin: 30px auto 0 auto;
-  border: 2px solid #7e8282;
+  margin: 30px auto 0 auto; 
   text-align: center;
   vertical-align: middle;
   padding-top: 17%;
@@ -524,7 +523,15 @@ h2.ugly:after{
   font-size: .8em;
 }
 
+.plain {
+   border: 2px solid #7e8282;
+}
 
+.date-box.ugly {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, rgb(197,44,128), rgb(243,119,23));
+}
 
 .details h2, .entry-content h2 {
   text-align: center;
