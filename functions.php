@@ -165,7 +165,7 @@ function qooler_judge_slider(){
               $name = get_sub_field('judge_name');
               $title = get_sub_field('judge_title');
               $bio = get_sub_field('judge_bio');
-              $img = get_sub_field('judge_picture')["sizes"]["medium"];
+              $img = get_sub_field('judge_picture')["sizes"]["judge-slider"];
               $row = get_row_index();
               if ($row === 1){
                 $active = 'active';
@@ -194,3 +194,5 @@ function qooler_judge_slider(){
 
 }
 
+
+add_image_size( 'judge-slider', 500, 500, array( 'center', 'center' ) ); // Hard crop left top
