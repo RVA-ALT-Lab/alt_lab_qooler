@@ -155,7 +155,7 @@ function bannerMaker(){
 }
 
 function qooler_judge_slider(){
-
+      $html = '';
       // check if the repeater field has rows of data
       if( have_rows('judge', 33) ):
         // loop through the rows of data
@@ -172,14 +172,16 @@ function qooler_judge_slider(){
               } else {
                 $active = '';
               }
-        //       <div class="carousel-item active">
-        //   <img class="d-block w-100" src="..." alt="First slide">
-        // </div>
-              $html .= '<div class="carousel-item judge-slide '. $active .'" id="judge_'.$row.'">';
-              $html .= '<div class="front"><h2>'.$name.'</h2>';
+  
+              $html .= '<div class="carousel-item col-12 col-sm-6 col-md-4 judge-slide '. $active .'" id="judge_'.$row.'">';
+
+              $html .= '<div class="judge-single">';
+              $html .= '<img src="'.$img.'">';
+              $html .= '<h2>'.$name.'</h2>';
+              $html .= '</div>';
               //$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
               //$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
-              $html .= '</div></div>';
+              $html .= '</div>';
 
           endwhile;
 
