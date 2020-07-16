@@ -267,6 +267,7 @@
 		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 		  </ol>
 		  <div class="carousel-inner">
+		  	<?php echo qooler_judge_slider();?>
 		    <!-- <div class="carousel-item active">
 		      <img class="d-block w-100" src="..." alt="First slide">
 		    </div>

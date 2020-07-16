@@ -153,3 +153,42 @@ function bannerMaker(){
 
     } 
 }
+
+function qooler_judge_slider(){
+
+      // check if the repeater field has rows of data
+      if( have_rows('judge', 33) ):
+        // loop through the rows of data
+          while ( have_rows('judge', 33) ) : the_row();
+
+              // get a sub field value
+              $name = get_sub_field('judge_name');
+              $title = get_sub_field('judge_title');
+              $bio = get_sub_field('judge_bio');
+              $img = get_sub_field('judge_picture')["sizes"]["medium"];
+              $row = get_row_index();
+              if ($row === 1){
+                $active = 'active';
+              } else {
+                $active = '';
+              }
+        //       <div class="carousel-item active">
+        //   <img class="d-block w-100" src="..." alt="First slide">
+        // </div>
+              $html .= '<div class="carousel-item judge-slide '. $active .'" id="judge_'.$row.'">';
+              $html .= '<div class="front"><h2>'.$name.'</h2>';
+              //$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
+              //$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
+              $html .= '</div></div>';
+
+          endwhile;
+
+      else :
+
+          // no rows found
+
+      endif;
+    return $html;
+
+}
+
