@@ -176,7 +176,7 @@ function qooler_judge_slider(){
               $html .= '<div class="carousel-item col-12 col-sm-6 col-md-4 judge-slide '. $active .'" id="judge_'.$row.'">';
 
               $html .= '<div class="judge-single">';
-              $html .= '<img src="'.$img.'">';
+              $html .= '<img src="'.$img.'" height="500px" width="500px" class="img-fluid" alt="A bio picture for ' . $name . '">';
               $html .= '<h2>'.$name.'</h2>';
               $html .= '</div>';
               //$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';

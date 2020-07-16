@@ -261,7 +261,7 @@
 <div class="top-content">
     <div class="container-fluid judges-row">
         <div id="judges-slider" class="carousel slide" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+            <div class="carousel-inner w-100 mx-auto" role="listbox">
                 <?php echo qooler_judge_slider();?>
             </div>
             <a class="carousel-control-prev" href="#judges-slider" role="button" data-slide="prev">

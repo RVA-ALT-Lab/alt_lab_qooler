@@ -621,16 +621,29 @@ h2.ugly:after{
 
 //JUDGES FRONT//
 .judges-row {
-  background-color: $dark-gray;
+  background-color: #424242;
+  padding: 90px 0;
 }
 
 .carousel {
   width: 100%;
 }
 
+.carousel-inner {
+  padding: 0 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 80px;
+}
+
 .judge-slide {
-  height: 450px;
+  height: 520px;
   width: 100%;
+}
+
+.judge-single {
+  padding: 50px;
 }
 
 //************************JUDGES************************//
