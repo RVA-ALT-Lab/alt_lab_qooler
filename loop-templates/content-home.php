@@ -14,14 +14,7 @@
 
 	</header><!-- .entry-header -->
 	<div class="weather-row row">
-				<div class="col-md-4 heavy">
-					<!-- 2020<br>
-					Qooler:<br>
-					A design<br>
-					competition<br>
-					for a cooler<br>
-					future | <span class="triangle-down"></span><br>
-					VCU Qatar<br> -->
+				<div class="col-md-4 heavy">					
 				</div>
 				<div class="col-md-8" id="weather-block">
 					<div id="conditions">Current conditions in Doha, Qatar</div>
