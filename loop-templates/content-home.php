@@ -185,7 +185,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="date-box plain">July 2020</div>
-		<div class="timeline-detail">Competition registration starts<br>when the website launches.</div>	
+		<div class="timeline-detail">Competition registration starts when the website launches.</div>	
 		</div>
 		<div class="col-md-3">
 		<div class="date-box plain">Dec 2020</div>	

@@ -17,6 +17,14 @@ body {
   background-image: url(../imgs/background_gradient.png);
 }
 
+p, li {
+  color: #4E4E4E;
+  letter-spacing: -1.11px;
+  font-size: 1.2em;
+  background-color: transparent;
+  padding: .3em 0;
+}
+
 #navbarNavDropdown {
   justify-content: flex-end;
 }
@@ -402,7 +410,7 @@ h2.ugly:after{
 
 //**categories**//
 .categories {
-  padding: 50px 100px;
+  padding: 50px 50px;
   background-image: linear-gradient(175deg, #CEF6E4 29%, #7BE5E5 100%);
   width: 100%;
 }
@@ -564,7 +572,6 @@ h2.ugly:after{
 }
 
 .details h2, .entry-content h2 {
-  text-align: center;
   color: #4E4E4E;
   margin: 40px 0 20px 0;
 }
@@ -573,13 +580,7 @@ h2.ugly:after{
   margin-bottom: 40px;
 }
 
-.details-text p, .entry-content p {
-  color: #4E4E4E;
-  letter-spacing: -1.11px;
-  font-size: 1.2em;
-  background-color: transparent;
-  padding: .3em 0;
-}
+
 
 .entry-content {
    color: #4E4E4E;
@@ -636,12 +637,12 @@ h2.ugly:after{
   margin: 5px 0;
 }
 
-.awards-list div:nth-child(odd){
+.awards-list div:nth-child(even){
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, #25408e, #c2f3e3);
 }
 
-.awards-list div:nth-child(even){
+.awards-list div:nth-child(odd){
    border-image-slice: 1;
   border-image-source: linear-gradient(to left, #c2f3e3, #25408e);
 }
@@ -943,10 +944,6 @@ body, p, h1, h2, h3, h4, h5 {
 	margin-bottom: 1em;
 }
 
-p {
-	background-color: $white;
-	padding: 1em .4em;
-}
 
 .table {
 	background-color: $white;
