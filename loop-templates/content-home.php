@@ -202,7 +202,27 @@
 	</div>
 </div>
 <!--timeline end-->
+<!--awards start-->
+<div class="container-fluid awards white-bg">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Awards and Exhibitions</h2>
+			<p>The winning submissions will be announced at an awards ceremony, via national and international media and exhibited in Qatar at Tasmeem Doha in the Spring of 2021.</p>
+			<p>Tasmeem Doha is VCUarts Qatar’s biennial international conference focusing on contemporary themes in arts and design.</p>
+			<h2>Award Ceremony</h2>
+			<p>Prizes and certificates will be awarded to the selected designer(s) and presented during the competition’s award ceremony in conjunction with the Tasmeem 2021 Conference.</p>
+			<p>Endorsed by the Qatar Foundation Research and Development and innovation (RDI) with jury members from academia and practice.</p>
+			<div class="awards-list">
+				<div class="award">1st Prize $ 5,000</div>
+				<div class="award">2nd Prize $ 3,000</div>
+				<div class="award">3rd Prize $ 2,000</div>
+				<div class="award">Honorable Mention</div>
+			</div>
+		</div>
+	</div>
+</div>
 
+<!--awards end-->
 <!--judges slider start-->	
 <div class="judges">
     <div class="container-fluid judges-row">
