@@ -59,53 +59,6 @@
 	</div>
 </div>
 <!--map zone end--> 
-<!--conditions in the mid east start--> 
-<!-- <div class="container-fluid me-zone">
-	<div class="row orange-bg">
-		<div class="col-md-6">
-			<div class="callout">“Conditions in the Middle East could become so hot and humid by the end of the century that being outside for more than six hours would be intolerable.” [1]</div>
-		</div>
-		<div class="col-md-6 thermal-globe">			
-		</div>
-	</div>
-</div> -->
-<!--conditions in the mid east END--> 
-
-<!--qatar stats start--> 
-<!-- <div class="container-fluid qatar-zone">
-	<div class="row gray-bg glasses center">
-		<div class="col-md-8 offset-md-2">
-			<div class="qatar-text">Qatar is home to nearly 3 million people. All residents need a way to live in an increasingly hotter country. We look to human ingenuity for solutions to make life in the desert peninsula more comfortable.</div>
-		</div>
-		<div class="col-md-6 thermal-globe">			
-		</div>
-	</div>
-</div> -->
-<!--qatar stats END--> 
-
-<!--doha start--> 
-<!-- <div class="container-fluid me-zone">
-	<div class="row orange-bg flip">
-		<div class="col-md-6">
-			<div class="callout">“Qatar, most notably, is in danger because Doha is uniquely geographically positioned to receive hot dry air from the desert interior to the west and hot moist air from the Gulf.” [2]</div>
-		</div>
-		<div class="col-md-6 dunes">			
-		</div>
-	</div>
-</div> -->
-<!--doha END--> 
-<!--you charge start--> 
-<!-- <div class="container-fluid charge">
-	<div class="row gray-bg glasses left">
-		<div class="col-md-8 offset-md-2">
-			<h2>This is where YOU and your design can make a difference</h2>
-			<div class="qatar-text">The objective of <span class="qooler">Qooler</span> is to recognize, showcase and promote the best design ideas that embody the principles and aims of Qatar’s National Vision 2030[3] which has sustainability as a core feature of its four pillars.</div>
-		</div>
-		<div class="col-md-6 thermal-globe">			
-		</div>
-	</div>
-</div> -->
-<!--your charge END--> 
 
 <!--three categories start--> 
 <div class="container-fluid categories">
@@ -251,8 +204,11 @@
 <!--timeline end-->
 
 <!--judges slider start-->	
-<div class="top-content">
+<div class="judges">
     <div class="container-fluid judges-row">
+    	<div class="col-md-12 judges-title">
+    		<h2>Judges</h2>
+    	</div>
         <div id="judges-slider" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner w-100 mx-auto" role="listbox">
                 <?php echo qooler_judge_slider();?>
