@@ -541,6 +541,10 @@ h2.ugly:after{
    border: 3px solid #7e8282;
 }
 
+.details .white-bg {
+  padding: 0 50px;
+}
+
 // .plain:after{
 //   content:'';
 //   border: 2px dashed red;
@@ -917,7 +921,7 @@ h2.ugly:after{
   color: #000;
   font-weight: 700;
   padding: .4em .2em 0 .2em;
-  border-bottom: 5px solid;
+  border-bottom: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left,#c52c80,#f37717);
     display: inline-block;
