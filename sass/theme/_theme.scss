@@ -25,6 +25,12 @@ p, li {
   padding: .3em 0;
 }
 
+
+
+.qooler-nav, .qooler-nav .row, .qooler-nav .col-md-6 {
+  padding: 0;
+}
+
 #navbarNavDropdown {
   justify-content: flex-end;
 }
