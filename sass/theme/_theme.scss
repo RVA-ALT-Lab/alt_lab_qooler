@@ -311,6 +311,11 @@ h2.ugly:after{
   padding-bottom: 60px;
 }
 
+.map-zone h2 {
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
 .map-zone p {
   padding-bottom: 0;
   padding-top: 0;
@@ -459,6 +464,7 @@ h2.ugly:after{
     transform: rotate(180deg);
     background-image: url(../imgs/product_blue.svg);
     transition: all .5s;
+    margin-top: 20px;
 }
 
 .wearable-icon {
@@ -474,7 +480,8 @@ h2.ugly:after{
 .clicked .wearable-icon {
     transform: rotate(180deg);
     background-image: url(../imgs/wearable_blue.svg);
-     transition: all .5s;
+    transition: all .5s;
+     margin-top: 20px;
 }
 
 .spaces-icon {
@@ -491,6 +498,7 @@ h2.ugly:after{
     transform: rotate(180deg);
     background-image: url(../imgs/spaces_blue.svg);
      transition: all .5s;
+      margin-top: 20px;
 }
 
 .btn {

@@ -52,7 +52,7 @@
 				<p>VCUarts Qatar presents a design competition for a cooler future.</p>
 				<p>Qatar is the inspiration for this design competition. A hot, humid climate where the temperatures can exceed 45 degrees C on a summer day. But Qatar is not alone. All over the world, climate change is a reality - global warming, sandstorms, overheating oceans, and drought are part of the increasingly worrying picture. </p>
 				<h2 class="qooler">Qooler is about ideas</h2>
-				<p>Through participation in Qooler, we look for individuals to contribute to the global discourse on climate change and explore how experimentation, innovation, invention and design can make all the difference to the world.</p>
+				<p><strong>Through participation in Qooler, we look for individuals to contribute to the global discourse on climate change and explore how experimentation, innovation, invention and design can make all the difference to the world.</strong></p>
 				<p>Through Qooler we seek solutions to the problems that climate change creates for humankind.</p>
 				<h2>How to participate</h2>
 				<p>The objective of Qooler is to create an open forum where each entry becomes part of a global conversation on the contribution of design to global change.</p>
@@ -67,7 +67,7 @@
 <div class="container-fluid categories">
 	<div class="row">
 		<div class="col-md-3 cat-holder">
-			<h2 class="ugly">Categories</h2>
+			<h2 class="ugly" id="categories">Categories</h2>
 			<div class="cat-details">
 				Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis specifically as it applies to Qatar.
 			</div>
@@ -110,7 +110,7 @@
 <div class="container-fluid details">
 	<div class="row white-bg">
 		<div class="col-md-12">
-			<h2>Guidelines</h2>
+			<h2 id="guidelines">Guidelines</h2>
 		</div>
 		<div class="col-md-8">						
 			<div class="details-text">
