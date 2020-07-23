@@ -27,7 +27,7 @@
 			<div class="orange-bars col-md-9 offset-md-3">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="top ugly"><h1>About<br>Qooler</h1>
+						<div class="top ugly" id="about-qooler"><h1>About<br>Qooler</h1>
 					</div>
 					</div>
 					<div class="col-md-4">
