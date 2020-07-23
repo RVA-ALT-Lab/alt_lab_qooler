@@ -27,8 +27,9 @@
 			<div class="orange-bars col-md-9 offset-md-3">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="top ugly" id="about-qooler"><h1>About<br>Qooler</h1>
-					</div>
+						<div class="top" id="about-qooler">
+							<h1 class="ugly">About<br>Qooler</h1>
+						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="bar-big bar"></div>
@@ -46,7 +47,7 @@
     <div class="contain-it">
 		<div class="row">
 			<div class="col-md-4 weird-map">
-				<img class="fluid map-tri" src="<?php echo get_template_directory_uri();?>/imgs/dymaxion_expand.gif" alt="A triangular map view of the Earth.">
+				<img class="fluid map-tri img-fluid" src="<?php echo get_template_directory_uri();?>/imgs/dymaxion_expand.gif" alt="A triangular map projection of the Earth.">
 			</div>
 			<div class="col-md-8 map-text">
 				<p>VCUarts Qatar presents a design competition for a cooler future.</p>
