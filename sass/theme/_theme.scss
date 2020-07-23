@@ -83,13 +83,20 @@ li.active {
   border-bottom: 2px solid #046B99;
   padding-left: 30px;
   padding-right: 30px;
+  margin-top: 17%;
 }
 
-#main-menu a {
+#main-menu a, #secondary-menu a {
   color: $primary;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: .9em;
+  font-weight: 500;
   margin: auto 10px;
+  width: 100px;
+}
+
+#secondary-menu {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .translation-block {
@@ -145,6 +152,13 @@ li.active {
   margin-top: 30px;
   width: 560px;
 }
+
+.navbar-toggler {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
 //***************WEATHER BLOCK********************//
 #conditions {
   text-align: right;
