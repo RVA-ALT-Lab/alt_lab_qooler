@@ -1029,8 +1029,14 @@ h2.ugly:after{
 }
 
 .logo-bar {
-  border-bottom: 2px solid $dark-gray;
   background-color: #f8f8f8;
+}
+
+.footer-bar {
+   border-bottom: 1px solid $dark-gray;
+   margin: 0 auto;
+   height: 10px;
+   margin: 0 20px;
 }
 
 .footer-q-logo {
@@ -1048,7 +1054,7 @@ h2.ugly:after{
 
 .terms {
   position: absolute;
-  bottom: 15px;
+  bottom: 5px;
 }
 
 .footer-widget {
@@ -1058,10 +1064,20 @@ h2.ugly:after{
 
 .left {
   padding-left: 40px;
+  padding-top: 10px;
 }
 
 .right {
   padding-right: 40px;
+  padding-top: 10px;
+}
+
+#footer a {
+  color: $dark-gray;
+}
+
+#footer img {
+  margin-bottom: 0;
 }
 
 //************************BASIC CONTENT CHOICES************************//

@@ -20,8 +20,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				<div class="col-md-4 logo-bar right">					
 					<img src="<?php echo get_template_directory_uri() . '/imgs/dark_vcu_qatar.svg' ?>" class="fluid footer-q-logo" alt="VCU Arts Qatar logo.">
-				</div>		
-				<hr>	
+				</div>
+				<div class="col-md-8 offset-md-2 logo-bar">		
+					<div class="footer-bar"></div>	
+				</div>
 				<div class="col-md-4 offset-md-2 footer-widget left">
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer - far left") ) : ?><?php endif;?>
 				</div>						
