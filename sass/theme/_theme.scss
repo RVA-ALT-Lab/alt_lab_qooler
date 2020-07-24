@@ -1054,7 +1054,7 @@ h2.ugly:after{
 
 .terms {
   position: absolute;
-  bottom: 5px;
+  bottom: 0;
 }
 
 .footer-widget {
@@ -1070,6 +1070,12 @@ h2.ugly:after{
 .right {
   padding-right: 40px;
   padding-top: 10px;
+}
+
+.social a {
+  width: 80px;
+  text-align: center;
+  display: inline-block;
 }
 
 #footer a {
