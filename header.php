@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="col-md-6">							
 
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
+								<span class="navbar-toggler-icon"><div class="arrow-dwn"></div><div class="arrow-dwn"></div><div class="arrow-dwn"></div></span>
 							</button>
 
 							<!-- The WordPress Menu goes here -->
