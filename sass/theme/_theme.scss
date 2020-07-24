@@ -299,13 +299,13 @@ margin-bottom: 2px;
   top:30px;
   left: -5px;
   width: 90%;
-  height: 50px;
+  height: 40px;
   background: linear-gradient(to left, rgb(197,44,128), #ffc107);
   z-index: -10;
 }
 
 h1.ugly, h2.ugly  {
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding: 5px 0 10px 30px;  
   background-color: #f8f8f8;
   width: 100%;
@@ -588,7 +588,8 @@ h2.ugly:after{
   padding-top: 16%;
   line-height: 1;
   font-size: .8em;
-  color: #424242;
+  color: #4a4a4a;
+  font-weight: 700;
 }
 
 .plain {
@@ -612,6 +613,11 @@ h2.ugly:after{
   border: 3px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, rgb(197,44,128), #ffc107);
+  background-color: transparent;
+}
+
+.timeline h2 {
+  color: #4a4a4a;
 }
 
 .timeline .col-md-3 {
@@ -662,6 +668,11 @@ h2.ugly:after{
   align-items: flex-start;
 }
 
+.criteria-list h4 {
+  margin:0;
+  font-weight: 700;
+}
+
 .criteria-number {
   font-size: 3em;
   font-weight: 600;
@@ -682,6 +693,12 @@ h2.ugly:after{
 //AWARDS//
 .awards {
   padding: 50px 40px;
+}
+
+.awards h2 {
+  color: #4a4a4a;
+  margin: 0;
+  font-size: 1.5em;
 }
 
 .awards-list {

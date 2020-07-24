@@ -228,7 +228,7 @@
 
 <!--awards end-->
 <!--judges slider start-->	
-<div class="judges">
+<div class="judges" id="judges">
     <div class="container-fluid judges-row">
     	<div class="col-md-12 judges-title">
     		<h2>Judges</h2>
