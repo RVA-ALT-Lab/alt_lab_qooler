@@ -792,6 +792,19 @@ h2.ugly:after{
   width: 100%;
   font-size: 1.2em;
   padding: 12px 0 12px 20px;
+  position: relative;
+}
+
+.judge-single h2:after {
+  content:'';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  right: 25px;
+  bottom: 16px;
 }
 
 .carousel-control-prev-icon {
