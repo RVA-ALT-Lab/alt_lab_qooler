@@ -605,6 +605,7 @@ h2.ugly:after{
   color: #4a4a4a;
   font-weight: 700;
   background-color: #ebfbf9;
+  outline: solid 10px #ebfbf9 ;
 }
 
 .plain {
@@ -1244,6 +1245,9 @@ blockquote.default{
       margin: 40px auto;
       display: block;
       float: none;
+    }
+    .connect:after {
+      display: none;
     }
  }
 
