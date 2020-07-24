@@ -187,15 +187,15 @@
 		<div class="col-md-12">
 			<h2>Competition timeline</h2>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 connect">
 			<div class="date-box plain">July 2020</div>
 		<div class="timeline-detail">Competition registration starts when the website launches.</div>	
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 connect">
 		<div class="date-box plain">Dec 2020</div>	
 		<div class="timeline-detail">Design submission</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 connect">
 		<div class="date-box plain">Jan-Feb 2021</div>	
 		<div class="timeline-detail">Review of Design by Jury</div>	
 		</div>

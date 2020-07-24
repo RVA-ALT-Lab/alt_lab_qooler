@@ -579,6 +579,20 @@ h2.ugly:after{
   padding: 60px 40px;
 }
 
+
+.connect:after {
+  content:'';
+  background-image: url(../imgs/dash_gradient2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 64%;
+    height: 10px;
+    top: 36%;
+    position: absolute;
+    background-size: contain;
+    left: 73%;
+}
+
 .date-box {
   width: 100px;
   height: 100px;
@@ -590,6 +604,7 @@ h2.ugly:after{
   font-size: .8em;
   color: #4a4a4a;
   font-weight: 700;
+  background-color: #ebfbf9;
 }
 
 .plain {
@@ -613,7 +628,6 @@ h2.ugly:after{
   border: 3px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, rgb(197,44,128), #ffc107);
-  background-color: transparent;
 }
 
 .timeline h2 {
@@ -783,6 +797,14 @@ h2.ugly:after{
   background-image: url(../imgs/judge-arrow.svg);
 }
 
+.carousel-control-prev-icon:hover{
+  margin-right: 4px;
+}
+
+.carousel-control-next-icon:hover{
+  margin-left: 4px;
+}
+
 .carousel-control-next-icon {
     background-image: url(../imgs/judge-arrow.svg);
      -moz-transform: scaleX(-1);
@@ -797,6 +819,7 @@ h2.ugly:after{
   width: 40px;
   height: 80px;
   opacity: 1;
+  transition: all .2s;
 }
 
 .carousel-control-next, .carousel-control-prev {
