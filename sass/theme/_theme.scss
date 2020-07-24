@@ -1028,9 +1028,14 @@ h2.ugly:after{
   margin-bottom: 30px;
 }
 
+.logo-bar {
+  border-bottom: 2px solid $dark-gray;
+  background-color: #f8f8f8;
+}
+
 .footer-q-logo {
   width: 200px;
-  margin-left: 100px;
+  float:right;
 
 }
 
