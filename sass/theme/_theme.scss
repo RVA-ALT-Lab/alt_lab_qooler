@@ -1036,10 +1036,33 @@ h2.ugly:after{
 .footer-q-logo {
   width: 200px;
   float:right;
-
 }
 
+.footer-widget {
+  background-color: #f8f8f8;
+}
 
+.footer-widget.right {
+  text-align: right;
+}
+
+.terms {
+  position: absolute;
+  bottom: 15px;
+}
+
+.footer-widget {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.left {
+  padding-left: 40px;
+}
+
+.right {
+  padding-right: 40px;
+}
 
 //************************BASIC CONTENT CHOICES************************//
 .qooler {

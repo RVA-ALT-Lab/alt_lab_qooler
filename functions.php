@@ -103,8 +103,8 @@ if ( function_exists('register_sidebar') )
 
 if ( function_exists('register_sidebar') )
   register_sidebar(array(
-    'name' => 'Footer - medium left',
-    'id' => 'footer-med-left',
+    'name' => 'Footer - top left',
+    'id' => 'footer-top-left',
     'before_widget' => '<div class = "widgetizedArea">',
     'after_widget' => '</div>',
     'before_title' => '<h3>',
