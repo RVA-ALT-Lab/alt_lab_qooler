@@ -748,6 +748,7 @@ h2.ugly:after{
 
 .carousel-inner {
   padding: 0 70px;
+  height: 300px;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -776,6 +777,30 @@ h2.ugly:after{
   width: 100%;
   font-size: 1.2em;
   padding: 12px 0 12px 20px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../imgs/judge-arrow.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../imgs/judge-arrow.svg);
+     -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 40px;
+  height: 80px;
+  opacity: 1;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1;
 }
 
 //************************JUDGES************************//
