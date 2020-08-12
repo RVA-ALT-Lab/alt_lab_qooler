@@ -1284,6 +1284,10 @@ blockquote.default{
 }
 
 @media (max-width: 768px) {
+  #main-menu {
+    border-bottom: none;
+  }
+
   #how-hot {
     font-size: 4em;
     text-align: left;
@@ -1360,7 +1364,10 @@ blockquote.default{
     .qooler.submit {
       margin: 30px 0;
     }
-
+    .details {
+      margin: 0 15px;
+      width: auto;
+    }
  }
 
 
