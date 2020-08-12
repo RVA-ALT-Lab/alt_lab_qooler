@@ -1333,6 +1333,34 @@ blockquote.default{
     .connect:after {
       display: none;
     }
+
+    .criteria-text {
+      margin: 40px 0;
+      width: 100%;
+    }
+
+    .timeline-row {
+      flex-wrap: wrap;
+    }
+
+    .c-box {
+      width: 90%;
+      flex: none;
+    }
+
+    .timeline-detail {
+      text-align: center;
+      width: 100%;
+    }
+
+    .details .white-bg {
+      padding: 0;
+    }
+    
+    .qooler.submit {
+      margin: 30px 0;
+    }
+
  }
 
 
