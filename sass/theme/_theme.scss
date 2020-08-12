@@ -581,19 +581,38 @@ h2.ugly:after{
   padding: 60px 40px;
 }
 
+.timeline-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: columns;
+  justify-content: space-around;
+  width: 100%;
+}
 
-.connect:after {
-  content:'';
+.c-box {
+  flex: 1 1 0px;
+}
+
+.rainbow-connection {
   background-image: url(../imgs/dash_gradient2.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 64%;
-    height: 10px;
-    top: 36%;
-    position: absolute;
-    background-size: contain;
-    left: 73%;
+  background-size: contain;
+  background-position: 0 35%;
 }
+
+// .connect:after {
+//   content:'';
+//   background-image: url(../imgs/dash_gradient2.svg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   width: 50%;
+//   height: 10px;
+//   top: 36%;
+//   position: absolute;
+//   background-size: contain;
+//   left: 80%;
+// }
 
 .date-box {
   width: 100px;
