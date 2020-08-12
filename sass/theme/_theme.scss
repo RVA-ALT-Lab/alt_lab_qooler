@@ -796,8 +796,13 @@ h2.ugly:after{
   width: 100%;
 }
 
-.judge-single {
-  
+.judge-single a{
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.judge-single a:hover{
+  padding-left: 5px;
 }
 
 .judge-single img {
