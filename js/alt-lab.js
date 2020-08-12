@@ -170,5 +170,16 @@ $('#judges-slider').on('slide.bs.carousel', function (e) {
 
   })( jQuery );
 
+judgeFlipper();
 
+function judgeFlipper(){
+  if(window.location.hash){
+      const currentHash = window.location.hash.substr(1);
+      console.log(currentHash)
+      console.log(document.querySelector('#'+currentHash) && document.querySelector('.judge-holder'))
+      if (document.querySelector('#'+currentHash) ){
+        document.querySelector('#'+currentHash).classList.add('hover')
+      }
+  }
 
+}

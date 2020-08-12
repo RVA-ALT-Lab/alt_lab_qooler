@@ -177,7 +177,7 @@ function qooler_judge_slider(){
 
               $html .= '<div class="judge-single">';
               $html .= '<img src="'.$img.'" height="500px" width="500px" class="img-fluid" alt="A bio picture for ' . $name . '">';
-              $html .= '<h2>'.$name.'</h2>';
+              $html .= '<a href="judges#judge_' . $row . '"><h2>'.$name.'</h2></a>';
               $html .= '</div>';
               //$html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
               //$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
