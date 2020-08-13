@@ -67,13 +67,13 @@
 <!--three categories start--> 
 <div class="container-fluid categories">
 	<div class="row">
-		<div class="col-md-3 cat-holder">
+		<div class="col-md-4 cat-holder">
 			<h2 class="ugly" id="categories">Categories</h2>
 			<div class="cat-details">
 				Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis specifically as it applies to Qatar.
 			</div>
 		</div>
-		<div class="col-md-9">
+		<div class="col-md-8">
 			<div class="row">
 				<div class="col-md-4 tri-cat" id="product-button">
 					<div class="cat-title-holder">
