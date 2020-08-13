@@ -13,7 +13,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="full-width-page-wrapper">
 
-	<div class="container-fluid" id="content">
+	<div class="container" id="content">
 
 		<div class="row">
 

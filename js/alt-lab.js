@@ -183,3 +183,19 @@ function judgeFlipper(){
   }
 
 }
+
+submissionImageFix();
+
+function submissionImageFix(){
+  let newHtml = '';
+  if (document.querySelector('#sub-images')){
+    const imageDiv = document.querySelector('#images');
+    const imageHtml = imageDiv.innerHTML;
+    const imageUrls = imageHtml.split('<br>');
+    
+    imageUrls.forEach((image) => {
+        newHtml += '<img class="submission-image" src="' + image + '" alt="Image for submission for project.">'
+    })
+    imageDiv.innerHTML = newHtml;
+  }  
+}
