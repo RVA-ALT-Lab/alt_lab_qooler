@@ -802,9 +802,17 @@ h2.ugly:after{
   width: 100%;
 }
 
+.judge-single {
+  position: relative;
+}
+
 .judge-single a{
   text-decoration: none;
   transition: all .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .judge-single img {
@@ -821,6 +829,7 @@ h2.ugly:after{
   font-size: 1.2em;
   padding: 12px 0 12px 20px;
   position: relative;
+  margin: 0;
 }
 
 .judge-single h2:after {
