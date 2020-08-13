@@ -189,7 +189,7 @@ submissionImageFix();
 function submissionImageFix(){
   let newHtml = '';
   if (document.querySelector('#sub-images')){
-    const imageDiv = document.querySelector('#images');
+    const imageDiv = document.querySelector('#sub-images');
     const imageHtml = imageDiv.innerHTML;
     const imageUrls = imageHtml.split('<br>');
     
