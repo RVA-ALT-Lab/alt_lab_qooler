@@ -199,7 +199,7 @@
 			<div class="rainbow-connection c-box"></div>
 			<div class="connect c-box">
 				<div class="date-box plain">
-					Design submission/div>	
+					Design submission	
 					<div class="time">
 						Nov 2020
 					</div>
@@ -208,7 +208,7 @@
 			<div class="rainbow-connection c-box"></div>
 			<div class="connect c-box">
 				<div class="date-box plain">
-					Design Review by Jury
+					Design<br>Review<br>by Jury
 					<div class="time">
 						Dec 2020
 					</div>
