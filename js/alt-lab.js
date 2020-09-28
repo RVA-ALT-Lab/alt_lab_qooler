@@ -30,7 +30,8 @@ if (document.getElementById('weather-block')){
         success: function(data) {
             console.log(data); //dumps the data to the console to check if the callback is made successfully.
               console.log(data.list[0].weather)
-              jQuery('#how-hot').html(data.list[0].main.temp_max + '°<div class="description">'+data.list[0].weather[0].description+'</div>');
+              console.log(data.list[0].main.humidity)
+              jQuery('#how-hot').html(data.list[0].main.temp_max + '°<div class="description">'+data.list[0].weather[0].description+'</div><div class="humidity">Humidity index '+data.list[0].main.humidity+'%</div>');
           } //success
       }); //ajax  
     }); //ready

@@ -175,20 +175,19 @@ margin-bottom: 2px;
 
 //***************WEATHER BLOCK********************//
 #conditions {
-  text-align: right;
-  color: #04557d;
+  text-align: left;
+  color: #253f8e;
 }
 
 #how-hot {
   font-family: sans-serif;
   font-size: 6em;
   font-weight: 800;
-  color: #04557d;
+  color: #253f8e;
   right: 7%;
   display: block;
   z-index: 3;
-  opacity: .8;
-  text-align: right;
+  opacity: .9;
 }
 
 #how-hot .description {
@@ -219,6 +218,10 @@ margin-bottom: 2px;
   display: inline-block;
 }
 
+.humidity {
+  font-size: .2em;
+  font-weight: 400;
+}
 
 //*behind the idea orange rows*//
 
