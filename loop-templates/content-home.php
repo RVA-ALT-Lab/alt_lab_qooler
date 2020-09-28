@@ -189,23 +189,38 @@
 		</div>
 		<div class="timeline-row">
 			<div class="connect c-box">
-				<div class="date-box plain">July 2020</div>
-				<div class="timeline-detail">Competition registration starts when the website launches.</div>	
+				<div class="date-box plain">
+					Registration Begins
+					<div class="time">
+						Oct 2020
+					</div>
+				</div>
 			</div>
 			<div class="rainbow-connection c-box"></div>
 			<div class="connect c-box">
-				<div class="date-box plain">Dec 2020</div>	
-				<div class="timeline-detail">Design submission</div>
+				<div class="date-box plain">
+					Design submission/div>	
+					<div class="time">
+						Nov 2020
+					</div>
+				</div>
 			</div>
 			<div class="rainbow-connection c-box"></div>
 			<div class="connect c-box">
-				<div class="date-box plain">Jan-Feb 2021</div>	
-				<div class="timeline-detail">Review of Design by Jury</div>	
+				<div class="date-box plain">
+					Design Review by Jury
+					<div class="time">
+						Dec 2020
+					</div>
+				</div>	
 			</div>
 			<div class="rainbow-connection c-box"></div>
 			<div class="c-box">
-				<div class="date-box ugly">Mar 2021</div>	
-				<div class="timeline-detail">Award date TBC</div>
+				<div class="date-box ugly">
+					Award date (TBC)
+				<div class="time">
+						Jan 2021
+				</div>
 			</div>
 		</div>			
 	</div>
