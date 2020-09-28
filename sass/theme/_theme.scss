@@ -594,6 +594,7 @@ h2.ugly:after{
   flex-direction: columns;
   justify-content: space-around;
   width: 100%;
+  margin-top: 20px;
 }
 
 .c-box {
@@ -605,7 +606,6 @@ h2.ugly:after{
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-position: 0 35%;
 }
 
 // .connect:after {
@@ -624,7 +624,7 @@ h2.ugly:after{
 .date-box {
   width: 100px;
   height: 100px;
-  margin: 30px auto 0 auto; 
+  margin: 0 auto 0 auto; 
   text-align: center;
   vertical-align: middle;
   padding-top: 16%;
