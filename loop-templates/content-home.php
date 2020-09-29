@@ -112,8 +112,10 @@
 <!--guidelines start-->
 <div class="container-fluid details">
 	<div class="row white-bg">
-		<div class="col-md-12">
-			<h2 id="guidelines">Guidelines</h2>
+		<div class="col-md-4 kludge">
+			<h2 class="ugly" id="guidelines">Guidelines</h2>
+		</div>
+		<div class="col-md-8">
 		</div>
 		<div class="col-md-8">						
 			<div class="details-text">
@@ -252,8 +254,10 @@
 <!--judges slider start-->	
 <div class="judges" id="judges">
     <div class="container-fluid judges-row">
-    	<div class="col-md-12 judges-title">
-    		<h2>Judges</h2>
+    	<div class="col-md-4 kludge">
+    		<h2 class="ugly">Judges</h2>
+    	</div>
+    	<div class="col-md-8">
     	</div>
         <div id="judges-slider" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner w-100 mx-auto" role="listbox">
