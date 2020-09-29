@@ -832,6 +832,7 @@ h2.ugly:after{
 
 .judge-single {
   position: relative;
+  filter: grayscale(100%);
 }
 
 .judge-single a{
@@ -965,7 +966,7 @@ h2.ugly:after{
 
 .magic-box {
   width: 70%;
-  max-width: 230px;
+  max-width: 200px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
