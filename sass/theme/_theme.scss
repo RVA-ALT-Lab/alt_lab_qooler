@@ -798,7 +798,6 @@ h2.ugly:after{
   border-bottom: 10px solid red;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, #f80088, #ffc107);
-
 }
 
 .judges-title {
@@ -942,15 +941,17 @@ h2.ugly:after{
     margin: 30px;
     display: inline-block;
     color: #fff;
-    height: 400px;
+    height: 230px;
 }
 
 
 .judge h2 {
-  text-align: center;
-  font-size: 1.4em;
-  margin-top: 30px;
-  font-weight: 300;
+    text-align: left;
+    font-size: 1.4em;
+    margin-top: 30px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0;
 }
 
 .judge .judge-back h2 {
@@ -964,7 +965,7 @@ h2.ugly:after{
 
 .magic-box {
   width: 70%;
-  max-width: 200px;
+  max-width: 230px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1001,8 +1002,12 @@ h2.ugly:after{
 
 .judge-front{
   background-color: $primary;
-  height: 400px;
+  height: 230px;
   width: 100%;
+}
+
+.front, .judge-single, .judge-front {
+  height: 100%;
 }
 
 .judge-front, .judge-back {
