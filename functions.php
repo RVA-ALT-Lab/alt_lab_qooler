@@ -194,5 +194,38 @@ function qooler_judge_slider(){
 
 }
 
+function qooler_only_god_can_judge_me(){
+   if( have_rows('judge', 33) ):
+        // loop through the rows of data
+    $html = '';
+          while ( have_rows('judge', 33) ) : the_row();
+               $name = get_sub_field('judge_name');
+              $title = get_sub_field('judge_title');
+              $bio = get_sub_field('judge_bio');
+              $img = get_sub_field('judge_picture')["sizes"]["medium"];
+              $row = get_row_index();
+              $html .= '<div class="flip-container col-md-3 judge" id="judge_'.$row.'" onclick="jQuery(\'#judge_'.$row.'\').toggleClass(\'hover\')"><div class="flipper judge-front">';
+          //         <a href="#vento_nadya">
+              $html .=   '<div class="front"><h2>'.$name.'</h2>';
+              $html .= '<div class="magic-box" style="background-image:url('.$img.')"></div>';
+              $html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
+
+              //         </a>
+              $html .=  '</div><div class="judge-back"><h2>'.$name.'</h2><div class="judge-title">'.$title.'</div>'.$bio.'</div>';
+              //     </div>
+              $html .= '</div>';
+
+          endwhile;
+
+          else :
+
+          // no rows found
+
+    endif;
+  
+  return $html;
+
+}
+
 
 add_image_size( 'judge-slider', 500, 500, array( 'center', 'center' ) ); // Hard crop left top

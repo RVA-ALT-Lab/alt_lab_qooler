@@ -259,19 +259,7 @@
     	</div>
     	<div class="col-md-8">
     	</div>
-        <div id="judges-slider" class="carousel slide" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner w-100 mx-auto" role="listbox">
-                <?php echo qooler_judge_slider();?>
-            </div>
-            <a class="carousel-control-prev" href="#judges-slider" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#judges-slider" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+        <?php echo qooler_only_god_can_judge_me();//qooler_judge_slider();?>
     </div>
 </div>
 
