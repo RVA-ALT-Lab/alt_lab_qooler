@@ -712,6 +712,9 @@ h2.ugly:after{
   margin-bottom: 40px;
 }
 
+.kludge {
+  z-index: 1;
+}
 
 
 .entry-content {
@@ -810,6 +813,7 @@ h2.ugly:after{
 }
 
 .carousel {
+  margin-top: 30px;
   width: 100%;
 }
 
