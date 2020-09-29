@@ -497,7 +497,7 @@ h2.ugly:after{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../imgs/product.svg);
+  background-image: url(../imgs/new_product.svg);
   width: 130px;
   height: 130px;
   margin: 0px auto;
@@ -509,7 +509,7 @@ h2.ugly:after{
 
 .clicked .product-icon {
     transform: rotate(180deg);
-    background-image: url(../imgs/product_blue.svg);
+    background-image: url(../imgs/new_product_blue.svg);
     transition: all .5s;
     margin-top: 20px;
 }
@@ -518,7 +518,7 @@ h2.ugly:after{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../imgs/wearable.svg);
+  background-image: url(../imgs/new_wearable.svg);
   width: 130px;
   height: 130px;
   margin: 0px auto;
@@ -526,7 +526,7 @@ h2.ugly:after{
 
 .clicked .wearable-icon {
     transform: rotate(180deg);
-    background-image: url(../imgs/wearable_blue.svg);
+    background-image: url(../imgs/new_wearable_blue.svg);
     transition: all .5s;
      margin-top: 20px;
 }
@@ -535,7 +535,7 @@ h2.ugly:after{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../imgs/spaces.svg);
+  background-image: url(../imgs/new_spaces.svg);
   width: 130px;
   height: 130px;
   margin: 0px auto;
@@ -543,7 +543,7 @@ h2.ugly:after{
 
 .clicked .spaces-icon {
     transform: rotate(180deg);
-    background-image: url(../imgs/spaces_blue.svg);
+    background-image: url(../imgs/new_spaces_blue.svg);
      transition: all .5s;
       margin-top: 20px;
 }
