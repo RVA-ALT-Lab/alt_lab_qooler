@@ -70,8 +70,10 @@
 		<div class="col-md-4 cat-holder">
 			<h2 class="ugly" id="categories">Categories</h2>
 			<div class="cat-details">
-				Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis specifically as it applies to Qatar.
+				Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis.  Each entry will be accompanied by a narrative that describes the experimental and speculative aspects of the entry and its conceptual framework.
 			</div>
+			<a class="qooler submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
+
 		</div>
 		<div class="col-md-8">
 			<div class="row">
@@ -95,10 +97,10 @@
 				</div>
 			</div>			
 			<div class="row">
-				<div class="col-md-2">
+				<!-- <div class="col-md-2">
 					<a class="qooler submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
-				</div>
-				<div class="col-md-8 offset-md-2" id="cat-detail-holder">
+				</div> -->
+				<div class="col-md-10 offset-md-1" id="cat-detail-holder">
 					<div id="cat-details"></div>
 				</div>
 			</div>
