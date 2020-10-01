@@ -225,3 +225,40 @@ function qooler_only_god_can_judge_me(){
 
 
 add_image_size( 'judge-slider', 500, 500, array( 'center', 'center' ) ); // Hard crop left top
+
+
+//FORM SUBMISSION NINJITSU
+
+add_action( 'gform_after_submission', 'qooler_submission_update', 10, 2 );
+function qooler_submission_update( $entry, $form ) {
+ 
+    //getting post
+    $post_id = $entry['post_id'];
+    $gf_entry_id = rgar( $entry, 'id' );  
+    $link_to_form = add_post_meta($post_id, 'gf_entry_id', $gf_entry_id, true);
+    write_log( $link_to_form);
+
+     $my_post = array(
+      'ID'           => $post_id,
+      'post_type' => 'submission',
+  );
+ 
+// Update the post into the database
+  wp_update_post( $my_post );
+}
+
+
+add_filter( 'acf/settings/remove_wp_meta_box', '__return_false' );
+
+
+//LOGGER -- like frogger but more useful
+
+if ( ! function_exists('write_log')) {
+   function write_log ( $log )  {
+      if ( is_array( $log ) || is_object( $log ) ) {
+         error_log( print_r( $log, true ) );
+      } else {
+         error_log( $log );
+      }
+   }
+}
