@@ -1186,6 +1186,21 @@ h2.ugly:after{
   margin-bottom: 0;
 }
 
+//*************************FORM CSS***********************//
+#gform_wrapper_2 {
+  padding: 40px;
+}
+
+input[type=text], textarea, select {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left,#E6007e,#Ffb300);
+    background-color: #f8f8f8;
+    display: block;
+    position: relative;
+}
+
+
 //************************BASIC CONTENT CHOICES************************//
 .qooler {
   color: #000;
