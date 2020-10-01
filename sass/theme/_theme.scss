@@ -878,7 +878,9 @@ h2.ugly:after{
   top: 0;
   height: 100%;
   opacity: 0;
+  transition: all .4s;
 }
+
 
 .hover .judge-info {
   opacity: 100%;
@@ -972,10 +974,6 @@ h2.ugly:after{
   text-align: left;  
 }
 
-.judge-back .judge-title {
-  text-align: left;
-  padding: 5px 0px 20px 0px;
-}
 
 .magic-box {
   width: 70%;
@@ -995,10 +993,14 @@ h2.ugly:after{
 }
 
 .judge-title {
-  font-size: .8em;
-  text-align: center;
-  padding: 0 20px 20px 20px;
+  padding: 10px 0 10px 0;
 }
+
+.judge-info {
+  font-size: .8em;
+  padding: 0px 20px 20px 20px;
+}
+
 
 .judge-triangle {
   position: absolute;
