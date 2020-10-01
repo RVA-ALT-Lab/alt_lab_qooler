@@ -873,6 +873,19 @@ h2.ugly:after{
   bottom: 12px;
 }
 
+.judge-info {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.hover .judge-info {
+  opacity: 100%;
+  background-color: rgba(0,0,0,.7);
+}
+
+
 .carousel-control-prev-icon {
   background-image: url(../imgs/judge-arrow.svg);
 }
@@ -1022,39 +1035,39 @@ h2.ugly:after{
     transition: all 1s ease;
 }
 
-.judge-back {
-  transform: rotateY(180deg);
-}
+// .judge-back {
+//   transform: rotateY(180deg);
+// }
 
 
-.flip-container, .hover {
-  transition: all 1s ease; 
-}
+// .flip-container, .hover {
+//   transition: all 1s ease; 
+// }
 
-.flip-container.hover .flipper,
-.flip-container.flip .flipper {
-  transform: rotateY(360deg);
-}
+// .flip-container.hover .flipper,
+// .flip-container.flip .flipper {
+//   transform: rotateY(360deg);
+// }
 
-.flip-container.hover .judge-back {
-  backface-visibility: visible;
-  z-index: 10000;
-  transform: rotateY(360deg);
-  transition: all 1s ease;
-}
+// .flip-container.hover .judge-back {
+//   backface-visibility: visible;
+//   z-index: 10000;
+//   transform: rotateY(360deg);
+//   transition: all 1s ease;
+// }
 
-.flip-container .judge-back {
-  padding: 15px;
-  background-color: #efefef;
-  color: #000;
-  width: 100%;
-  height: 100%;
-}
+// .flip-container .judge-back {
+//   padding: 15px;
+//   background-color: #efefef;
+//   color: #000;
+//   width: 100%;
+//   height: 100%;
+// }
 
-.flip-container.hover .front {
-  backface-visibility: hidden;
-  display: none;
-}
+// .flip-container.hover .front {
+//   backface-visibility: hidden;
+//   display: none;
+// }
 
 
 //*category details*//

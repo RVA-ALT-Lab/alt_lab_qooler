@@ -205,15 +205,11 @@ function qooler_only_god_can_judge_me(){
               $img = get_sub_field('judge_picture')["sizes"]["medium"];
               $row = get_row_index();
               $html .= '<div class="flip-container col-md-3 judge" id="judge_'.$row.'" onclick="jQuery(\'#judge_'.$row.'\').toggleClass(\'hover\')"><div class="flipper judge-front">';
-          //         <a href="#vento_nadya">
-              $html .=   '<div class="front">';
+              $html .= '<div class="front">';
               $html .= '<div class="judge-single" style="background-image:url('.$img.')"><h2>'.$name.'</h2></div></div>';
-              //$html .= '<div class="judge-title">'.$title.'</div><div class="judge-triangle"></div></div>';
 
-              //         </a>
-              $html .=  '</div><div class="judge-back"><h2>'.$name.'</h2><div class="judge-title">'.$title.'</div>'.$bio.'</div>';
-              //     </div>
-              $html .= '</div>';
+              $html .=  '<div class="judge-info"><div class="judge-title">'.$title.'</div>'.$bio.'</div>';
+              $html .= '</div></div>';
 
           endwhile;
 
