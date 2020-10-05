@@ -105,7 +105,7 @@ $('#judges-slider').on('slide.bs.carousel', function (e) {
 //SUBMISSIONS SLIDER
 
 jQuery('#sub-slider').carousel({
-  interval: 2000
+  interval: 6000
 })
 
 

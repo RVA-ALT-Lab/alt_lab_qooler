@@ -31,7 +31,6 @@
 			print("<pre>".print_r($entry,true)."</pre>");
 			$sub_imgs = $entry['39'];
 			//qooler_make_submission_slider($sub_imgs);
-
 		?>
 		<!--SLIDER-->
 		<div id="sub-slider" class="carousel slide" data-ride="sub-slider">
