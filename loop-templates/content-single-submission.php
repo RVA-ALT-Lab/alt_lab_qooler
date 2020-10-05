@@ -29,7 +29,8 @@
 			$gform_entry_id = get_post_meta( $post->ID, 'gf_entry_id', true);//gets gform entry id
 			$entry = GFAPI::get_entry($gform_entry_id);//gets all entry data
 			print("<pre>".print_r($entry,true)."</pre>");
-			$sub_imgs = $entry['39'];
+			$sub_imgs = $entry['39'] . $entry['40'];
+
 			//qooler_make_submission_slider($sub_imgs);
 		?>
 		<!--SLIDER-->

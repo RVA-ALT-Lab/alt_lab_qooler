@@ -282,14 +282,29 @@ function qooler_show_subs_front(){
     $html = '';
     $the_query = new WP_Query( $args );
                     if( $the_query->have_posts() ): 
-                      $html .='<div class="row front-subs"><div class="col-md-4"><h2 class="ugly">Submission<br>gallery</h2></div><div class="col-md-8"></div>';
+                      $html .='<div class="row front-subs"><div class="col-md-4"><h2 class="ugly front-sub-title">Submission<br>gallery</h2></div><div class="col-md-8"></div>';
                       while ( $the_query->have_posts() ) : $the_query->the_post();
-                        $html .= '<div class="col-md-6">' . get_the_title() . '</div>';
+                        global $post;
+                        $html .= '<div class="col-md-6">';
+                        $html .= '<img src="' . get_the_post_thumbnail_url($post->ID, 'large') . '">';
+                        $html .=  '<div class="single-sub-info"><a href="' . get_the_permalink() . '"><h2 class="single-sub-title">' . get_the_title() . '</h2> | ' . get_single_sub_details($post->ID) . ' </a></div></div>';
                       endwhile;
                        $html .='</div>';
                     endif;
     wp_reset_query();  // Restore global post data stomped by the_post().
    return $html;
+}
+
+function get_single_sub_details($post_id){
+      $gform_entry_id = get_post_meta( $post_id, 'gf_entry_id', true);//gets gform entry id
+      $entry = GFAPI::get_entry($gform_entry_id);//gets all entry data
+      $name = '';
+      if ( $entry['2.3'] != ''){
+        $name =  $entry['2.3'] . ' ' . $entry['2.6'] ;
+      } else {
+        $name =  $entry['12.3'] . ' ' . $entry['12.6'];
+      }
+      return  $name . ' | ' . $entry['49'] . $entry['50'];
 }
 
 
