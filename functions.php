@@ -248,7 +248,20 @@ function qooler_submission_update( $entry, $form ) {
 }
 
 
-add_filter( 'acf/settings/remove_wp_meta_box', '__return_false' );
+//SUBMISSION DISPLAY FUNCTIONS
+
+function qooler_make_submission_slider($sub_imgs){
+  global $post;
+  $featured = get_the_post_thumbnail_url($post->ID,'large');
+  $clean_sub_imgs = str_replace("\/", "/", $sub_imgs);
+  $all_imgs = explode(",", $clean_sub_imgs);
+  array_unshift($all_imgs, $featured);
+  var_dump($all_imgs);
+
+}
+
+
+add_filter( 'acf/settings/remove_wp_meta_box', '__return_false' );//SHOW CUSTOM FIELDS SO YOU CAN SEE THEM OBVIOUSLY
 
 
 //LOGGER -- like frogger but more useful
