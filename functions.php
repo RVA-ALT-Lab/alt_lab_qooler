@@ -85,7 +85,7 @@ function alt_lab_scripts() {
 	);
 	wp_enqueue_style ( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
 
-	wp_enqueue_script( 'alt_lab_js', get_template_directory_uri() . '/js/alt-lab.js', array('jQuery'), '1.1.1', true );
+	wp_enqueue_script( 'alt_lab_js', get_template_directory_uri() . '/js/alt-lab.js', array('jquery'), '1.1.1', true );
     }
 //@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 

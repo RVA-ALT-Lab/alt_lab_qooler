@@ -4,23 +4,22 @@
 //window.onscroll = function() {myFunction()};
 
 // Get the navbar
-var navbar = document.getElementById("wrapper-navbar");
+// var navbar = document.getElementById("wrapper-navbar");
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop+60;
+// // Get the offset position of the navbar
+// var sticky = navbar.offsetTop+60;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
 
 if (document.getElementById('weather-block')){
 	let weather_data = 'https://rampages.us/extras/doha-weather.php'
-   
     jQuery(document).ready(function() {
       var def = new jQuery.Deferred();
       jQuery.ajax({
@@ -28,7 +27,7 @@ if (document.getElementById('weather-block')){
         jsonp: "cb",
         dataType: 'json',
         success: function(data) {
-            console.log(data); //dumps the data to the console to check if the callback is made successfully.
+              console.log(data); //dumps the data to the console to check if the callback is made successfully.
               console.log(data.list[0].weather)
               console.log(data.list[0].main.humidity)
               jQuery('#how-hot').html(data.list[0].main.temp_max + '°<div class="description">'+data.list[0].weather[0].description+'</div><div class="humidity">Humidity index '+data.list[0].main.humidity+'%</div>');
@@ -136,18 +135,18 @@ function judgeFlipper(){
 
 }
 
-submissionImageFix();
+// submissionImageFix();
 
-function submissionImageFix(){
-  let newHtml = '';
-  if (document.querySelector('#sub-images')){
-    const imageDiv = document.querySelector('#sub-images');
-    const imageHtml = imageDiv.innerHTML;
-    const imageUrls = imageHtml.split('<br>');
+// function submissionImageFix(){
+//   let newHtml = '';
+//   if (document.querySelector('#sub-images')){
+//     const imageDiv = document.querySelector('#sub-images');
+//     const imageHtml = imageDiv.innerHTML;
+//     const imageUrls = imageHtml.split('<br>');
     
-    imageUrls.forEach((image) => {
-        newHtml += '<img class="submission-image" src="' + image + '" alt="Image for submission for project.">'
-    })
-    imageDiv.innerHTML = newHtml;
-  }  
-}
+//     imageUrls.forEach((image) => {
+//         newHtml += '<img class="submission-image" src="' + image + '" alt="Image for submission for project.">'
+//     })
+//     imageDiv.innerHTML = newHtml;
+//   }  
+// }

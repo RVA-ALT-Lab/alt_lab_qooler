@@ -20,14 +20,14 @@
 
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	<?php //echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
 	<div class="entry-content">
 
 		<?php the_content(); ?>
 		<?php 
-			$gform_entry_id = get_post_meta( $post->ID, 'gf_entry_id', true);
-			$entry = GFAPI::get_entry($gform_entry_id);
+			$gform_entry_id = get_post_meta( $post->ID, 'gf_entry_id', true);//gets gform entry id
+			$entry = GFAPI::get_entry($gform_entry_id);//gets all entry data
 			print("<pre>".print_r($entry,true)."</pre>");
 			$sub_imgs = $entry['39'];
 			//qooler_make_submission_slider($sub_imgs);
