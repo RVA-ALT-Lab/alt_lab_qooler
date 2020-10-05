@@ -24,7 +24,7 @@ p, li {
   padding: .3em 0;
 }
 
-.home h3, .home h4 {
+.home h2, .home h3, .home h4 {
   font-size: 1.3em;
   font-weight: 700;
 }
@@ -772,7 +772,6 @@ h2.ugly:after{
 .awards h2 {
   color: #4a4a4a;
   margin: 0;
-  font-size: 1.5em;
 }
 
 .awards-list {
@@ -812,7 +811,7 @@ h2.ugly:after{
 
 .judges-row {
   background-color: #4d4d4d;
-  padding: 45px 0;
+  padding: 45px 50px;
 }
 
 .carousel {
@@ -924,6 +923,12 @@ h2.ugly:after{
 
 .carousel-control-next, .carousel-control-prev {
   opacity: 1;
+}
+
+//front display submissions 
+
+.front-subs {
+  padding: 50px;
 }
 
 //************************JUDGES************************//

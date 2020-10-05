@@ -247,7 +247,7 @@ function qooler_submission_update( $entry, $form ) {
 }
 
 
-//SUBMISSION DISPLAY FUNCTIONS
+//SINGLE SUBMISSION DISPLAY FUNCTIONS
 
 function qooler_make_submission_slider($sub_imgs){
   global $post;
@@ -268,6 +268,32 @@ function qooler_make_submission_slider($sub_imgs){
   return $html;
 }
 
+
+//front submission display functions 
+
+function qooler_show_subs_front(){
+   $args = array(
+      'posts_per_page' => 4,
+      'post_type'   => 'submission', 
+      'post_status' => 'publish', 
+      'order' => 'ASC',
+      'orderby' => 'rand',      
+      );
+    $html = '';
+    $the_query = new WP_Query( $args );
+                    if( $the_query->have_posts() ): 
+                      $html .='<div class="row front-subs"><div class="col-md-4"><h2 class="ugly">Submission<br>gallery</h2></div><div class="col-md-8"></div>';
+                      while ( $the_query->have_posts() ) : $the_query->the_post();
+                        $html .= '<div class="col-md-6">' . get_the_title() . '</div>';
+                      endwhile;
+                       $html .='</div>';
+                    endif;
+    wp_reset_query();  // Restore global post data stomped by the_post().
+   return $html;
+}
+
+
+//UTILITY FUNCTIONS 
 
 add_filter( 'acf/settings/remove_wp_meta_box', '__return_false' );//SHOW CUSTOM FIELDS SO YOU CAN SEE THEM OBVIOUSLY
 

@@ -265,6 +265,9 @@
 
 <!--judges slider end-->
 
+<!--submission display-->
+	<?php echo qooler_show_subs_front();?>
+
 	<div class="entry-content">
 	
 		<?php //the_content(); ?>
