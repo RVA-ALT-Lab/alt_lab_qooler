@@ -101,23 +101,17 @@ $('#judges-slider').on('slide.bs.carousel', function (e) {
     }
 });
 
-//SUBMISSIONS SLIDER
 
-jQuery('#sub-slider').carousel({
-  interval: 6000
-})
 
 
 //slide on anchor click
- (function($){
-    $(document).on('click', 'a[href^=#]', function(e){
+    $(document).on('click', 'a[href^=\\#]', function(e){
         e.preventDefault();
         var id = $(this).attr('href');
         $('html,body').animate({scrollTop: $(id).offset().top}, 500);
     });
 })(jQuery);
 
-  })( jQuery );
 
 
 //JUDGES show on click
@@ -134,6 +128,13 @@ function judgeFlipper(){
   }
 
 }
+
+//SUBMISSIONS SLIDER
+
+jQuery('#sub-slider').carousel({
+  interval: 6000
+})
+
 
 // submissionImageFix();
 
