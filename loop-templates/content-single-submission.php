@@ -30,9 +30,22 @@
 			$entry = GFAPI::get_entry($gform_entry_id);
 			print("<pre>".print_r($entry,true)."</pre>");
 			$sub_imgs = $entry['39'];
-			qooler_make_submission_slider($sub_imgs);
+			//qooler_make_submission_slider($sub_imgs);
 
 		?>
+		<div id="sub-slider" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+			    <?php echo qooler_make_submission_slider($sub_imgs);?>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
 
 		<?php
 		wp_link_pages( array(

@@ -102,6 +102,12 @@ $('#judges-slider').on('slide.bs.carousel', function (e) {
     }
 });
 
+//SUBMISSIONS SLIDER
+
+jQuery('#sub-slider').carousel({
+  interval: 2000
+})
+
 
 //slide on anchor click
  (function($){
