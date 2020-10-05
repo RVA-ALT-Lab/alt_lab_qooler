@@ -33,19 +33,21 @@
 			//qooler_make_submission_slider($sub_imgs);
 
 		?>
-		<div id="sub-slider" class="carousel slide" data-ride="carousel">
+		<!--SLIDER-->
+		<div id="sub-slider" class="carousel slide" data-ride="sub-slider">
 		  <div class="carousel-inner">
 			    <?php echo qooler_make_submission_slider($sub_imgs);?>
 		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		  <a class="carousel-control-prev" href="#sub-slider" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
 		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		  <a class="carousel-control-next" href="#sub-slider" role="button" data-slide="next">
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
+		<!--End Slider-->
 
 		<?php
 		wp_link_pages( array(
