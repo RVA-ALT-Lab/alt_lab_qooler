@@ -246,6 +246,14 @@ function qooler_submission_update( $entry, $form ) {
   wp_update_post( $my_post );
 }
 
+//Get list of Team Members from the json blob
+function qooler_display_team_members($team_names){
+  global $post;
+  // $team_names = json_encode($team_names);
+  var_dump($team_names);
+  // $html = $team_names;
+  // return $html;
+} 
 
 //SINGLE SUBMISSION DISPLAY FUNCTIONS
 
