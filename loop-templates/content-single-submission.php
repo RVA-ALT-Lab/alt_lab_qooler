@@ -25,14 +25,15 @@
 	<div class="entry-content">
 
 		<?php the_content(); ?>
+
 		<?php 
 			$gform_entry_id = get_post_meta( $post->ID, 'gf_entry_id', true);//gets gform entry id
 			$entry = GFAPI::get_entry($gform_entry_id);//gets all entry data
-			print("<pre>".print_r($entry,true)."</pre>");
-			$sub_imgs = $entry['39'] . $entry['40'];
-
-			//qooler_make_submission_slider($sub_imgs);
+			// print("<pre>".print_r($entry,true)."</pre>");
+			$sub_imgs = $entry['38'].$entry['39'].$entry['40'];
+			$yt_url = $entry['44'];
 		?>
+
 		<!--SLIDER-->
 		<div id="sub-slider" class="carousel slide" data-ride="sub-slider">
 		  <div class="carousel-inner">
@@ -48,6 +49,27 @@
 		  </a>
 		</div>
 		<!--End Slider-->
+		
+
+		<!--VIDEOS-->
+		<?php
+			if ($entry['44'] != "") {
+					if (strpos($yt_url, 'embed/') !== false) {
+						$clean_url = str_replace('embed/', 'watch?v=', $yt_url);
+					} 
+					else {
+						$clean_url = $yt_url;
+					}
+					echo '<div class="video-responsive">' .wp_oembed_get($clean_url). '</div>';
+					// var_dump($clean_url);
+			}
+			
+			else {
+				// var_dump($entry['43']);
+				echo '<div class="video-responsive"><iframe src="' .$entry['43']. '"></iframe></div>';
+			}
+		?>
+		<!--END VIDEOS-->
 
 		<?php
 		wp_link_pages( array(
