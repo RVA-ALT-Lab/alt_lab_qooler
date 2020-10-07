@@ -22,14 +22,14 @@
 
 	<?php //echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
-	<div class="entry-content">
+	<div class="entry-content submission-slider">
 
 		<?php the_content(); ?>
 
 		<?php 
 			$gform_entry_id = get_post_meta( $post->ID, 'gf_entry_id', true);//gets gform entry id
 			$entry = GFAPI::get_entry($gform_entry_id);//gets all entry data
-			print("<pre>".print_r($entry,true)."</pre>");
+			// print("<pre>".print_r($entry,true)."</pre>");
 			$sub_imgs = $entry['38'].$entry['39'].$entry['40'];
 			$yt_url = $entry['44'];
 			$date_submitted = $entry['date_created'];
@@ -58,22 +58,13 @@
 		<!--TEAM & PROJECT DATA-->
 		<div class="container">
 			<div class="row">
-				<h2 class="col-md-6">Project Team</h2><h2 class="col-md-6">Submission Date</h2>
+				<div class="col-md-6"><h2>Project Team</h2><?php echo ''.$first_name. " " .$last_name.'' ?><?php echo qooler_display_team_members($team_names) ?></div><div class="col-md-6 right-justify"><h2>Submission Date</h2><?php echo $date_submitted ?></div>
 			</div>
-			<div class="row">
-			<div class="col-md-6"><?php echo ''.$first_name. " " .$last_name.'' ?></div><div class="col-md-6"><?php echo $date_submitted ?></div>
-			</div>
-			<div class="row">
-				<div class="team-names"><?php echo qooler_display_team_members($team_names) ?></div>
-			</div>
-
-			<!-- Need stuff for other tem members here -->
-			
 			<div class="row">
 				<h2 class="col-md-12">Project Description</h2>
 			</div>
 			<div class="row">
-				<div class="col-md-12"><?php echo $project_desc ?></div>
+				<div class="col-md-12 bottom-buffer"><?php echo $project_desc ?></div>
 			</div>
 		</div>
 		<!--END Team & Prject Data-->

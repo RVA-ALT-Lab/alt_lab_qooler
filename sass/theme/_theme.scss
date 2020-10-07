@@ -1413,6 +1413,17 @@ blockquote.default{
   position:absolute;
 }
 
+.right-justify {
+  text-align: right;
+}
+
+.bottom-buffer {
+  padding-bottom: 20px;
+}
+
+.submission-slider {
+  margin-top: 0;
+}
 
 @media (max-width: 768px) {
   #main-menu {

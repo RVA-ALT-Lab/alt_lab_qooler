@@ -249,10 +249,12 @@ function qooler_submission_update( $entry, $form ) {
 //Get list of Team Members from the json blob
 function qooler_display_team_members($team_names){
   global $post;
-  // $team_names = json_encode($team_names);
-  var_dump($team_names);
-  // $html = $team_names;
-  // return $html;
+  $team_names = unserialize($team_names);
+  $html = '';
+  foreach ($team_names as $key => $value) {
+    $html .= '<div>' .$value['First Name']. ' ' .$value['Last Name']. '</div>';
+  }
+  return $html;
 } 
 
 //SINGLE SUBMISSION DISPLAY FUNCTIONS
