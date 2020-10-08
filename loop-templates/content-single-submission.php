@@ -10,7 +10,7 @@
 
 	<header class="entry-header">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 
@@ -21,7 +21,18 @@
 	</header><!-- .entry-header -->
 
 	<?php //echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	
+	<!--Submission box-->
 
+	<div class="row">
+		<div class="col-md-4 kludge">
+			<h2 class="ugly" id="submissions">Submission<br>gallery</h2>
+		</div>
+	</div>
+	<!-- END Submission box-->
+	<div class="col-md-12">
+		<?php the_title( '<h1 class="submission-title">', '</h1>' ); ?>
+	</div>
 	<div class="entry-content submission-slider">
 
 		<?php the_content(); ?>
@@ -40,7 +51,7 @@
 		?>
 
 		<!--SLIDER-->
-		<div id="sub-slider" class="carousel slide" data-ride="sub-slider">
+		<div id="sub-slider" class="carousel slide submission-border-bot" data-ride="sub-slider">
 		  <div class="carousel-inner">
 			    <?php echo qooler_make_submission_slider($sub_imgs);?>
 		  </div>
@@ -56,16 +67,14 @@
 		<!--End Slider-->
 
 		<!--TEAM & PROJECT DATA-->
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6"><h2>Project Team</h2><?php echo ''.$first_name. " " .$last_name.'' ?><?php echo qooler_display_team_members($team_names) ?></div><div class="col-md-6 right-justify"><h2>Submission Date</h2><?php echo $date_submitted ?></div>
-			</div>
-			<div class="row">
-				<h2 class="col-md-12">Project Description</h2>
-			</div>
-			<div class="row">
-				<div class="col-md-12 bottom-buffer"><?php echo $project_desc ?></div>
-			</div>
+		<div class="row buffer-bottom submission-border-bot">
+			<div class="col-md-6"><h2>Project Team</h2><?php echo ''.$first_name. " " .$last_name.'' ?><?php echo qooler_display_team_members($team_names) ?></div><div class="col-md-6 right-justify"><h2>Submission Date</h2><?php echo $date_submitted ?></div>
+		</div>
+		<div class="row">
+			<h2 class="col-md-12">Project Description</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-12 bottom-buffer"><?php echo $project_desc ?></div>
 		</div>
 		<!--END Team & Prject Data-->
 

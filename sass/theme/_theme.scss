@@ -1418,11 +1418,32 @@ blockquote.default{
 }
 
 .bottom-buffer {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .submission-slider {
   margin-top: 0;
+}
+
+.submission-border-top {
+  border-top: 1px solid $dark-gray;
+  padding-top: 10px;
+}
+
+.submission-border-bot {
+  border-bottom: 1px solid $dark-gray;
+  padding-bottom: 30px;
+}
+
+.submission-title {
+  font-family: DMSans-Regular;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#submissions {
+  margin-bottom: 30px;
+  margin-left: -15px;
 }
 
 @media (max-width: 768px) {
