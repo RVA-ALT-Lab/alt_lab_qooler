@@ -17,18 +17,23 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 			<!-- Do the left sidebar check -->
 
-			<main class="site-main col-md-8 offset-md-2" id="main">
+			<div class="col-md-8 offset-md-2 content-area" id="primary">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+				<main class="site-main" id="main" role="main">
+			<!-- <main class="site-main col-md-8 offset-md-2" id="main"> -->
 
-					<?php get_template_part( 'loop-templates/content', 'single-submission' ); ?>
+					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php //understrap_post_nav(); ?>
+						<?php get_template_part( 'loop-templates/content', 'single-submission' ); ?>
+
+							<?php //understrap_post_nav(); ?>
 
 
-				<?php endwhile; // end of the loop. ?>
+					<?php endwhile; // end of the loop. ?>
 
-			</main><!-- #main -->
+				</main><!-- #main -->
+
+			</div><!-- #primary-->
 
 		<!-- Do the right sidebar check -->
 

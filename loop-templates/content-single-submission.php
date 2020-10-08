@@ -26,12 +26,12 @@
 
 	<div class="row">
 		<div class="col-md-4 kludge">
-			<h2 class="ugly" id="submissions">Submission<br>gallery</h2>
+			<h1 class="ugly" id="submissions">Submission<br>gallery</h1>
 		</div>
 	</div>
 	<!-- END Submission box-->
 	<div class="col-md-12">
-		<?php the_title( '<h1 class="submission-title">', '</h1>' ); ?>
+		<?php the_title( '<h2 class="submission-title">', '</h2>' ); ?>
 	</div>
 	<div class="entry-content submission-slider">
 
@@ -92,8 +92,10 @@
 			}
 			
 			else {
+				if ($entry['43'] != "") {
 				// var_dump($entry['43']);
 				echo '<div class="video-responsive"><iframe src="' .$entry['43']. '"></iframe></div>';
+				}
 			}
 		?>
 		<!--END Videos-->
