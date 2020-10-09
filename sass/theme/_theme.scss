@@ -1432,13 +1432,14 @@ blockquote.default{
 
 .submission-border-bot {
   border-bottom: 1px solid $dark-gray;
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
 
 .submission-title {
   font-family: DMSans-Regular;
   font-size: 2rem;
   font-weight: 300;
+  padding-top: 2rem;
 }
 
 #submissions {
@@ -1450,7 +1451,7 @@ blockquote.default{
   background-color: #f8f8f8;
   margin-right: 0;
   margin-left: 0;
-  bottom: -10px;
+  bottom: 0;
 }
 
 .carousel-indicators li {
