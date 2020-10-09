@@ -754,7 +754,7 @@ h2.ugly:after{
   display: inline-block;
   width: 80px;
   text-align: center;
-  float: left;
+  // float: left;
   margin-top: 40px;
 }
 
@@ -1444,6 +1444,24 @@ blockquote.default{
 #submissions {
   margin-bottom: 30px;
   margin-left: -15px;
+}
+
+.carousel-indicators {
+  background-color: #f8f8f8;
+  margin-right: 0;
+  margin-left: 0;
+  bottom: -10px;
+}
+
+.carousel-indicators li {
+  background-color: #9e9e9e;
+  width: 15px;
+  height: 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-top: 0;
+  border-bottom: 0;
 }
 
 @media (max-width: 768px) {

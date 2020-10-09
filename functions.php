@@ -278,6 +278,20 @@ function qooler_make_submission_slider($sub_imgs){
   return $html;
 }
 
+function qooler_make_submission_indicators($sub_imgs){
+  global $post;
+  $sub_imgs = json_decode($sub_imgs);
+  $html = '';
+  foreach ($sub_imgs as $key => $value) {
+    $active = '';
+    if ($key === 0){
+      $active = 'active';
+    }
+    $html .= '<li data-target="#sub-slider" data-slide-to="' . $key . '" class="' . $active . '"</li>"';
+  }
+  return $html;
+}
+
 
 //front submission display functions 
 

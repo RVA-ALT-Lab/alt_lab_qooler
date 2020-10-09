@@ -135,6 +135,18 @@ jQuery('#sub-slider').carousel({
   interval: 6000
 })
 
+// Auto-generate carousel indicator html courtesy of https://gist.github.com/dvsqz/8816139
+// ;(function($){
+//   var bootCarousel = $(".carousel");
+//   bootCarousel.append("<ol class='carousel-indicators'></ol>");
+//   var indicators = $(".carousel-indicators");
+//   // console.log(indicators)
+//   bootCarousel.find(".carousel-inner").children(".item").each(function(index) {
+//       (index === 0) ?
+//       indicators.append("<li data-target='#sub-slider' data-slide-to='" + index + "' class='active'></li>") :
+//       indicators.append("<li data-target='#sub-slider' data-slide-to='" + index + "'></li>");
+//   });
+// })(jQuery);
 
 // submissionImageFix();
 

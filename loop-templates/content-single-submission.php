@@ -52,6 +52,9 @@
 
 		<!--SLIDER-->
 		<div id="sub-slider" class="carousel slide submission-border-bot" data-ride="sub-slider">
+		<ol class="carousel-indicators">
+			<?php echo qooler_make_submission_indicators($sub_imgs);?>
+		</ol>
 		  <div class="carousel-inner">
 			    <?php echo qooler_make_submission_slider($sub_imgs);?>
 		  </div>
