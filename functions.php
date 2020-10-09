@@ -281,6 +281,9 @@ function qooler_make_submission_slider($sub_imgs){
 function qooler_make_submission_indicators($sub_imgs){
   global $post;
   $sub_imgs = json_decode($sub_imgs);
+  $featured = get_the_post_thumbnail_url($post->ID,'large');
+
+  array_unshift($sub_imgs, $featured);
   $html = '';
   foreach ($sub_imgs as $key => $value) {
     $active = '';
