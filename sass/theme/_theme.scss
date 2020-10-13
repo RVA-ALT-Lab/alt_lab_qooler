@@ -1204,6 +1204,10 @@ h2.ugly:after{
 }
 
 //*************************FORM CSS***********************//
+#gform_wrapper_1 {
+  padding: 40px;
+}
+
 #gform_wrapper_2 {
   padding: 40px;
 }
@@ -1444,6 +1448,15 @@ blockquote.default{
 #submissions {
   margin-bottom: 30px;
   margin-left: -15px;
+}
+
+.single-sub-main {
+  padding: 40px;
+  background: #f8f8f8;
+}
+
+#page-qooler {
+  padding-left: 20px;
 }
 
 .carousel-indicators {

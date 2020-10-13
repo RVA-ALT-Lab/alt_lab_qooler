@@ -15,7 +15,7 @@
 			<div class="orange-bars col-md-12">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="top" id="about-qooler">
+						<div class="top" id="page-qooler">
 							<?php the_title( '<h1 class="entry-title ugly">', '</h1>' ); ?>
 						</div>
 					</div>
