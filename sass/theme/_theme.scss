@@ -124,6 +124,11 @@ li.active {
   font-weight: 500;
   margin: auto 10px;
   width: 100px;
+  text-decoration: none;
+}
+
+li.active {
+  text-decoration: none;
 }
 
 #secondary-menu {
