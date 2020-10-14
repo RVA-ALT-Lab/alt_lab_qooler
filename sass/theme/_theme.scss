@@ -780,6 +780,7 @@ h2.ugly:after{
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: flex-start;
+  padding-bottom: 50px;
 }
 
 .criteria-list h4 {
@@ -795,13 +796,17 @@ h2.ugly:after{
   width: 80px;
   text-align: center;
   float: left;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .criteria-text {
   display: inline-block;
-  margin: 40px;
+  margin: 0px 40px 0px 40px;
   width: 70%;
+}
+
+.criteria-text p {
+  font-size: .9em;
 }
 
 //AWARDS//
