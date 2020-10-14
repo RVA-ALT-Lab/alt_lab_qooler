@@ -312,9 +312,9 @@ function qooler_show_subs_front(){
                       $html .='<div class="row front-subs"><div class="col-md-4"><h2 class="ugly front-sub-title">Submission<br>gallery</h2></div><div class="col-md-8"></div>';
                       while ( $the_query->have_posts() ) : $the_query->the_post();
                         global $post;
-                        $html .= '<div class="col-md-6">';
+                        $html .= '<div class="col-md-6 sub">';
                         $html .= '<img src="' . get_the_post_thumbnail_url($post->ID, 'large') . '">';
-                        $html .=  '<div class="single-sub-info"><a href="' . get_the_permalink() . '"><h2 class="single-sub-title">' . get_the_title() . '</h2> | ' . get_single_sub_details($post->ID) . ' </a></div></div>';
+                        $html .=  '<a href="' . get_the_permalink() . '"><div class="single-sub-info"><h2 class="single-sub-title">' . get_the_title() . '</h2> | ' . get_single_sub_details($post->ID) . ' </div></a></div>';
                       endwhile;
                        $html .='</div>';
                     endif;

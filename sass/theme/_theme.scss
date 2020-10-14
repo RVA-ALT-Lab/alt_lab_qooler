@@ -976,12 +976,31 @@ h2.ugly:after{
   padding: 50px;
 }
 
+.sub {
+  padding-bottom: 40px;
+}
+
+.sub img {
+  margin-bottom: 5px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .ugly.front-sub-title {
   margin-bottom: 50px;
 }
 
 .single-sub-title {
   display: inline-block;
+}
+
+.front-subs a {
+  text-decoration: none;
+}
+
+.single-sub-info, .home .single-sub-info h2 {
+  font-size: 1em;
 }
 
 //************************JUDGES************************//
