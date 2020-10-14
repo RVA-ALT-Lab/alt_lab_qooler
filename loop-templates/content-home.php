@@ -120,7 +120,7 @@
 		<div class="col-md-8">						
 			<div class="details-text">
 				<h3>Eligibility</h3>
-				<p>The competition is open to all applicants aged 18 and up. Competitors can enter alone or a team.</p>
+				<p>The competition is open to all applicants aged 18 and up. Competitors can enter alone or as a team.</p>
  				<ul>
  					<li>The design must be your original work and idea.</li>
  					<li>You must have all rights to the work and idea and have not entered into commercial or licensing arrangements with any other entity at the time of entry.</li>
