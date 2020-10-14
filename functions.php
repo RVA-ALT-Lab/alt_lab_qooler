@@ -246,7 +246,7 @@ function qooler_submission_update( $entry, $form ) {
   wp_update_post( $my_post );
 }
 
-//Get list of Team Members from the json blob
+//Get list of names of Team Members from the json blob
 function qooler_display_team_members($team_names){
   global $post;
   $team_names = unserialize($team_names);
@@ -256,6 +256,17 @@ function qooler_display_team_members($team_names){
   }
   return $html;
 } 
+
+//Get list of Team Members with their emails
+function qooler_display_team_emails($team_emails){
+  global $post;
+  $team_emails = unserialize($team_emails);
+  $html = '';
+  foreach ($team_emails as $key => $value) {
+    $html .= '<div>' .$value['First Name']. ' ' .$value['Last Name']. ' <strong>email: </strong>' .$value['Email address']. '</div>';
+  }
+  return $html;
+}
 
 //SINGLE SUBMISSION DISPLAY FUNCTIONS
 
