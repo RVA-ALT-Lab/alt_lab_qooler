@@ -14,9 +14,10 @@
 
 	</header><!-- .entry-header -->
 	<div class="weather-row row">
-				<div class="col-md-8 heavy">					
+				<div class="col-md-7 heavy">					
 				</div>
-				<div class="col-md-4" id="weather-block">
+				<div class="col-md-5">
+					<div id="weather-block"></div>
 					<div id="conditions">Current conditions in Doha, Qatar</div>
 					<div id="how-hot"></div>
 				</div>
