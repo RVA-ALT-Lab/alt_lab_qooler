@@ -137,7 +137,8 @@
 	<div class="row white-bg">
 		<div class="col-md-12">
 			<div class="criteria-list">
-					<div class="criteria-row">
+						<?php get_template_part( 'loop-templates/content', 'criteria' ); ?>
+					<!-- <div class="criteria-row">
 						<div class="criteria-number ugly">
 							1
 						</div>
@@ -175,7 +176,7 @@
 							<h4>Have sustainable qualities and properties.</h4>
 							<p>The design should consider the use of reusable or recycled materials, be biodegradable, and have an extended lifespan.</p>
 						</div>
-					</div>
+					</div> -->
 				</div>	
 		</div>
 	</div>
