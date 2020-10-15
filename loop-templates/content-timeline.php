@@ -19,7 +19,6 @@
     	if(get_row_index()== 4){
     		$ugly = 'ugly';
     	}
-
     	?>
       <?php echo $connector;?>
       <div class="c-box connect">

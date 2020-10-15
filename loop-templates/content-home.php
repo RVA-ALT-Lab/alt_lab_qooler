@@ -153,41 +153,6 @@
 		</div>
 		<div class="timeline-row">
 			<?php get_template_part( 'loop-templates/content', 'timeline' );?>	
-	<!-- 		<div class="connect c-box">
-				<div class="date-box plain">
-					Registration Begins
-					<div class="time">
-						Oct 2020
-					</div>
-				</div>
-			</div>
-			<div class="rainbow-connection c-box"></div>
-			<div class="connect c-box">
-				<div class="date-box plain">
-					Design submission	
-					<div class="time">
-						Nov 2020
-					</div>
-				</div>
-			</div>
-			<div class="rainbow-connection c-box"></div>
-			<div class="connect c-box">
-				<div class="date-box plain">
-					Design<br>Review<br>by Jury
-					<div class="time">
-						Dec 2020
-					</div>
-				</div>	
-			</div>
-			<div class="rainbow-connection c-box"></div>
-			<div class="c-box">
-				<div class="date-box ugly">
-					Award date (TBC)
-				<div class="time">
-						Jan 2021
-				</div>
-			</div>
-		</div> -->			
 	</div>
 </div>
 <!--timeline end-->
@@ -195,6 +160,8 @@
 <div class="container-fluid awards white-bg">
 	<div class="row">
 		<div class="col-md-12">
+			<?php the_field('awards_text');?>
+			<!-- 
 			<h2>Awards and Exhibitions</h2>
 			<p>The winning submissions will be announced at an awards ceremony, via national and international media and exhibited in Qatar at Tasmeem Doha in the Spring of 2021.</p>
 			<p>Tasmeem Doha is VCUarts Qatar’s biennial international conference focusing on contemporary themes in arts and design.</p>
@@ -206,7 +173,7 @@
 				<div class="award">2nd Prize $ 3,000</div>
 				<div class="award">3rd Prize $ 2,000</div>
 				<div class="award">Honorable Mention</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
