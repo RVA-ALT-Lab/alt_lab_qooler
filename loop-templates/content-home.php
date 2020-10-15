@@ -120,20 +120,15 @@
 		<div class="col-md-8">
 		</div>
 		<div class="col-md-8">	
-		<?php the_field('guidelines_text');?>					
-			<!-- <div class="details-text">
+			<div class="details-text">
 				<h3>Eligibility</h3>
-				<p>The competition is open to all applicants aged 18 and up. Competitors can enter alone or as a team.</p>
- 				<ul>
- 					<li>The design must be your original work and idea.</li>
- 					<li>You must have all rights to the work and idea and have not entered into commercial or licensing arrangements with any other entity at the time of entry.</li>
- 					<li>You will have read and signed our terms and conditions of participation upon submission of your work.</li>
- 				</ul>
+				<?php the_field('guidelines_text');?>					
+				
 			</div>
 			<div class="details-text">
 				<h3>Criteria</h3>
-				<p>The competition wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the outdoors, considering the heat, humidity, air quality problems posed by the ongoing climate crisis around the world. </p> 						
-			</div>			 -->
+					<?php the_field('criteria_text');?>										
+			</div>			
 		</div>
 		<div class="col-md-4">
 			<img src="<?php echo get_template_directory_uri();?>/imgs/venn.png" class="fluid" alt="Venn diagram showing relationship between desireability, viability, and feasibility.">
