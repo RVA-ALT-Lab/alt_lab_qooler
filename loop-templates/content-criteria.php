@@ -1,6 +1,6 @@
 <?php
 /**
- * Blank content partial template.
+ * criteria list content partial template.
  *
  * @package understrap
  */

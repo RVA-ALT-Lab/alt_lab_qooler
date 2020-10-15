@@ -138,45 +138,6 @@
 		<div class="col-md-12">
 			<div class="criteria-list">
 						<?php get_template_part( 'loop-templates/content', 'criteria' ); ?>
-					<!-- <div class="criteria-row">
-						<div class="criteria-number ugly">
-							1
-						</div>
-						<div class="criteria-text">
-							<h4>Be desirable, viable, and feasible.</h4>
-							<p>These three lenses are critical in all good design and are often referred to as “the trifecta of innovation.”</p>
-							<p>Desirable: how can we create an experience that is truly human-centered and answers to the needs and aspirations of its intended audience?</p>
-							<p>Feasible: what do we need to do in order to make the project happen? What are the variables we must take into account for the project to become a reality?</p>
-							<p>Viable: how might you show that the solution is linked to a sustainable business model?</p>
-						</div>
-					</div>
-					<div class="criteria-row">
-						<div class="criteria-number ugly">
-							2
-						</div>
-						<div class="criteria-text">
-							<h4>Be innovative.</h4>
-							<p>Creativity is key. We want to see new ideas with the potential for true impact.</p>
-						</div>
-					</div>
-					<div class="criteria-row">
-						<div class="criteria-number ugly">
-							3
-						</div>
-						<div class="criteria-text">
-							<h4>Show evidence of a rigorous research process informing the design solution proposed.</h4>
-							<p>A well-researched submission clearly describes the problem, stakeholders, purpose, and proposes a solution that is contextually grounded and well informed.</p>
-						</div>
-					</div>
-					<div class="criteria-row">
-						<div class="criteria-number ugly">
-							4
-						</div>
-						<div class="criteria-text">
-							<h4>Have sustainable qualities and properties.</h4>
-							<p>The design should consider the use of reusable or recycled materials, be biodegradable, and have an extended lifespan.</p>
-						</div>
-					</div> -->
 				</div>	
 		</div>
 	</div>
@@ -191,7 +152,8 @@
 			<h2>Competition timeline</h2>
 		</div>
 		<div class="timeline-row">
-			<div class="connect c-box">
+			<?php get_template_part( 'loop-templates/content', 'timeline' );?>	
+	<!-- 		<div class="connect c-box">
 				<div class="date-box plain">
 					Registration Begins
 					<div class="time">
@@ -225,7 +187,7 @@
 						Jan 2021
 				</div>
 			</div>
-		</div>			
+		</div> -->			
 	</div>
 </div>
 <!--timeline end-->
