@@ -51,13 +51,14 @@
 				<img class="fluid map-tri img-fluid" src="<?php echo get_template_directory_uri();?>/imgs/dymaxion_expand.gif" alt="A triangular map projection of the Earth.">
 			</div>
 			<div class="col-md-8 map-text">
-				<p>Qatar is the inspiration for this design competition. A hot, humid climate where the temperatures can exceed 45 degrees C on a summer day. But Qatar is not alone. All over the world, climate change is a reality - global warming, sandstorms, overheating oceans, and drought are part of the increasingly worrying picture. </p>
+				<?php the_field('about_text');?>
+				<!-- <p>Qatar is the inspiration for this design competition. A hot, humid climate where the temperatures can exceed 45 degrees C on a summer day. But Qatar is not alone. All over the world, climate change is a reality - global warming, sandstorms, overheating oceans, and drought are part of the increasingly worrying picture. </p>
 				<h2 class="qooler">Qooler is about ideas</h2>
 				<p><strong>Through participation in Qooler, we look for individuals to contribute to the global discourse on climate change and explore how experimentation, innovation, invention and design can make all the difference to the world.</strong></p>
 				<p>Through Qooler we seek solutions to the problems that climate change creates for humankind.</p>
 				<h2>How to participate</h2>
 				<p>The objective of Qooler is to create an open forum where each entry becomes part of a global conversation on the contribution of design to global change.</p>
-				<p>We want to encourage thinking beyond today’s limitations. We want to see, hear and discuss concepts, prototypes, and pioneering designs intended to push the boundaries of what’s possible in the industry and excite the imagination.</p>
+				<p>We want to encourage thinking beyond today’s limitations. We want to see, hear and discuss concepts, prototypes, and pioneering designs intended to push the boundaries of what’s possible in the industry and excite the imagination.</p> -->
 			</div>
 		</div>
 	</div>
@@ -70,7 +71,8 @@
 		<div class="col-md-4 cat-holder">
 			<h2 class="ugly" id="categories">Categories</h2>
 			<div class="cat-details">
-				Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis.  Each entry will be accompanied by a narrative that describes the experimental and speculative aspects of the entry and its conceptual framework.
+				<?php the_field('categories_text');?>
+				<!-- Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis.  Each entry will be accompanied by a narrative that describes the experimental and speculative aspects of the entry and its conceptual framework. -->
 			</div>
 			<a class="qooler submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
 
@@ -117,8 +119,9 @@
 		</div>
 		<div class="col-md-8">
 		</div>
-		<div class="col-md-8">						
-			<div class="details-text">
+		<div class="col-md-8">	
+		<?php the_field('guidelines_text');?>					
+			<!-- <div class="details-text">
 				<h3>Eligibility</h3>
 				<p>The competition is open to all applicants aged 18 and up. Competitors can enter alone or as a team.</p>
  				<ul>
@@ -130,7 +133,7 @@
 			<div class="details-text">
 				<h3>Criteria</h3>
 				<p>The competition wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the outdoors, considering the heat, humidity, air quality problems posed by the ongoing climate crisis around the world. </p> 						
-			</div>			
+			</div>			 -->
 		</div>
 		<div class="col-md-4">
 			<img src="<?php echo get_template_directory_uri();?>/imgs/venn.png" class="fluid" alt="Venn diagram showing relationship between desireability, viability, and feasibility.">
