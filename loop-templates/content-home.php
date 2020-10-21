@@ -51,14 +51,7 @@
 				<img class="fluid map-tri img-fluid" src="<?php echo get_template_directory_uri();?>/imgs/dymaxion_expand.gif" alt="A triangular map projection of the Earth.">
 			</div>
 			<div class="col-md-8 map-text">
-				<?php the_field('about_text');?>
-				<!-- <p>Qatar is the inspiration for this design competition. A hot, humid climate where the temperatures can exceed 45 degrees C on a summer day. But Qatar is not alone. All over the world, climate change is a reality - global warming, sandstorms, overheating oceans, and drought are part of the increasingly worrying picture. </p>
-				<h2 class="qooler">Qooler is about ideas</h2>
-				<p><strong>Through participation in Qooler, we look for individuals to contribute to the global discourse on climate change and explore how experimentation, innovation, invention and design can make all the difference to the world.</strong></p>
-				<p>Through Qooler we seek solutions to the problems that climate change creates for humankind.</p>
-				<h2>How to participate</h2>
-				<p>The objective of Qooler is to create an open forum where each entry becomes part of a global conversation on the contribution of design to global change.</p>
-				<p>We want to encourage thinking beyond today’s limitations. We want to see, hear and discuss concepts, prototypes, and pioneering designs intended to push the boundaries of what’s possible in the industry and excite the imagination.</p> -->
+				<?php the_field('about_text');?>				
 			</div>
 		</div>
 	</div>
@@ -72,7 +65,6 @@
 			<h2 class="ugly" id="categories">Categories</h2>
 			<div class="cat-details">
 				<?php the_field('categories_text');?>
-				<!-- Qooler wants designs that answer the call for bespoke and innovative solutions to support human adaptability to the heat, humidity, air quality impacts of the climate crisis.  Each entry will be accompanied by a narrative that describes the experimental and speculative aspects of the entry and its conceptual framework. -->
 			</div>
 			<a class="qooler submit" href="<?php echo esc_url( home_url( '/' ) ); ?>submit-an-entry/">Submit an entry</a>
 
@@ -161,19 +153,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<?php the_field('awards_text');?>
-			<!-- 
-			<h2>Awards and Exhibitions</h2>
-			<p>The winning submissions will be announced at an awards ceremony, via national and international media and exhibited in Qatar at Tasmeem Doha in the Spring of 2021.</p>
-			<p>Tasmeem Doha is VCUarts Qatar’s biennial international conference focusing on contemporary themes in arts and design.</p>
-			<h2>Award Ceremony</h2>
-			<p>Prizes and certificates will be awarded to the selected designer(s) and presented during the competition’s award ceremony in conjunction with the Tasmeem 2021 Conference.</p>
-			<p>Endorsed by the Qatar Foundation Research and Development and innovation (RDI) with jury members from academia and practice.</p>
-			<div class="awards-list">
-				<div class="award">1st Prize $ 5,000</div>
-				<div class="award">2nd Prize $ 3,000</div>
-				<div class="award">3rd Prize $ 2,000</div>
-				<div class="award">Honorable Mention</div>
-			</div> -->
+			
 		</div>
 	</div>
 </div>

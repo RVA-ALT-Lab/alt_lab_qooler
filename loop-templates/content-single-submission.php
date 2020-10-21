@@ -118,7 +118,7 @@
 			else {
 				if ($entry['43'] != "") {
 				// var_dump($entry['43']);
-				echo '<div class="video-responsive"><iframe src="' .$entry['43']. '"></iframe></div>';
+				echo '<div class="video-responsive"><iframe src="' . $entry['43'] . '"></iframe></div>';
 				}
 			}
 		?>

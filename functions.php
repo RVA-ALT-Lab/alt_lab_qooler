@@ -324,7 +324,8 @@ function qooler_show_subs_front(){
                       while ( $the_query->have_posts() ) : $the_query->the_post();
                         global $post;
                         $html .= '<div class="col-md-6 sub">';
-                        $html .= '<img src="' . get_the_post_thumbnail_url($post->ID, 'large') . '">';
+                        $html .=  '<a href="' . get_the_permalink() . '">';
+                        $html .= '<img src="' . get_the_post_thumbnail_url($post->ID, 'large') . '"></a>';
                         $html .=  '<a href="' . get_the_permalink() . '"><div class="single-sub-info"><h2 class="single-sub-title">' . get_the_title() . '</h2> | ' . get_single_sub_details($post->ID) . ' </div></a></div>';
                       endwhile;
                        $html .='</div>';
