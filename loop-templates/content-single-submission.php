@@ -111,7 +111,7 @@
 					else {
 						$clean_url = $yt_url;
 					}
-					echo '<div class="video-responsive">' .wp_oembed_get($clean_url). '</div>';
+					echo '<div class="video-responsive">' . wp_oembed_get($clean_url) . '</div>';
 					// var_dump($clean_url);
 			}
 			
